@@ -1,0 +1,42 @@
+<html>
+<script>
+function calculateTotal(maths, physics, chemistry)
+{
+    var maths = parseInt(maths);
+    var physics = parseInt(physics);
+    var chemistry= parseInt(chemistry);
+    var total = maths + physics + chemistry;
+    var total = document.getElementById("total").value = total;
+}
+function calculatePercent(total)
+{
+    var percent = (total/300)*100;
+    percent = document.getElementById("percent").value = percent;
+    var grade;
+    if(percent > 75)
+    {
+        grade = document.getElementById("grade").value = "Distinction"; 
+    }
+    else if(percent > 65 && percent < 75)
+    {
+        grade = document.getElementById("grade").value = "B";
+    }
+    else
+    {
+        grade = document.getElementById("grade").value = "Fail";
+    }
+}
+</script>
+<body>
+Maths : <input type = "number" name="maths"><br>
+Physics : <input type="number" name="physics"><br>
+Chemistry : <input type="number" name="chemistry"><br>
+Total : <input type="text" id = "total" name="total">
+Percentage : <input type="text" id = "percent" name="percent"><br>
+Grade : <input type="text" name="grade" id="grade"><br><br>
+
+<input type="button" value="total" onclick="calculateTotal(document.getElementsByName('maths')[0].value,document.getElementsByName('physics')[0].value,document.getElementsByName('chemistry')[0].value)";>
+
+<input type="button" value="percent" onclick="calculatePercent(document.getElementsByName('total')[0].value)";>
+</body>
+</html>

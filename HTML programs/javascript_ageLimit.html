@@ -1,0 +1,18 @@
+<html>
+<script language = "Javascript">
+function AgeLimit()
+{
+var age;
+age = document.getElementById("age").value;
+if(age >=18)
+document.getElementById("age1").innerHTML = "He/She is adult";
+else
+document.getElementById("age1").innerHTML = "He/She is minor";
+}
+</script>
+<body>
+Age : <input type = "text" id = "age"><br><br>
+<input type = "button" value = "Sow" onclick = "AgeLimit();">
+<span id = "age1"></span>
+</body>
+</html>
