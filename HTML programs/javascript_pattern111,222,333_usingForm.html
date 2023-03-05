@@ -1,0 +1,25 @@
+<html>
+<script language = "Javascript">
+function patternCheck()
+{
+var row = document.getElementById("r1").value;
+var col = document.getElementById("c1").value;
+var r = "";
+for(row=1;row <= 3;row++)
+{
+for(col=1;col<=3;col++)
+	{
+		r += document.getElementById("in").innerHTML = (row + " ");
+	}
+	document.getElementById("in").innerHTML;
+}
+
+}
+</script>
+<body>
+Enter row : <input type = "text" id = "r1"><br>
+Enter column : <input type = "text" id = "c1"><br><br>
+<input type ="button" value = "SUBMIT" onclick = "patternCheck();">
+<span id = "in"><br></span>
+</body>
+</html>
