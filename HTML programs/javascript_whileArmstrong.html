@@ -1,0 +1,18 @@
+<html>
+    <script>
+        var num,r,sum=0,orig;
+        var num = prompt("Enter number");
+        orig = num;
+        while(num>0)
+        {
+            r = num%10;
+            sum = sum+(r*r*r);
+            num = Math.floor(num/10);
+        }
+        if(orig==sum)
+        document.write(orig + " is armstrong");
+        
+        else
+        document.write(orig + " is not an armstrong");
+    </script>
+</html>

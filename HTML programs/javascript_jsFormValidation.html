@@ -1,0 +1,33 @@
+<html>
+<script language = "Javascript">
+function check()
+{
+var username = document.getElementById("un").value;
+var password = document.getElementById("up").value;
+if(username == "" || password == "")
+{
+	alert("Enter username and password !!");
+} 
+else if(password.length <= 6)
+{
+	alert("Password must be atleast 6 characters");
+}
+else
+{
+	alert("Welcome " + username);
+}
+}
+</script>
+<style>
+#rek{
+color:red;
+}
+</style>
+<body>
+<label for = "un">Username<span id="rek">*</span> :
+<input type = "text" id = "un"></label><br>
+<label for = "up">Password<span id="rek">*</span> :
+<input type = "password" id = "up" required></label><br><br>
+<input type = "button" value = "SUBMIT" onclick = "check();">
+</body>
+</html>
