@@ -1,0 +1,464 @@
+<html>
+<script language = "Javascript">
+var counter=30;
+//code to get random number and fill it in an array
+var arr = new Array();
+var num=12;
+do{
+var n1 = Math.floor(Math.random()*12)+1;
+if(! arr.includes(n1))
+{
+arr.push(n1);
+}
+}while(arr.length<num);
+//End of code to get random number and fill it in array
+
+//function to fill button randomly from the array
+function start()
+{
+document.getElementById("b1").innerHTML = arr[0];
+document.getElementById("b2").innerHTML = arr[1];
+document.getElementById("b3").innerHTML = arr[2];
+document.getElementById("b4").innerHTML = arr[3];
+document.getElementById("b5").innerHTML = arr[4];
+document.getElementById("b6").innerHTML = arr[5];
+document.getElementById("b7").innerHTML = arr[6];
+document.getElementById("b8").innerHTML = arr[7];
+document.getElementById("b9").innerHTML = arr[8];
+document.getElementById("b10").innerHTML = arr[9];
+document.getElementById("b11").innerHTML = arr[10];
+document.getElementById("b12").innerHTML = arr[11];
+//timer();                                                    //calling timer function // one way to start timer within start function
+
+document.getElementById("sub").disabled=true;			//disable function to disable submit button 
+}
+
+//code to check whether the user had pressed proper button or not
+var arr1 = [1,2,3,4,5,6,7,8,9,10,11,12];
+var result = 0;
+var x;
+
+//start of function but1
+
+function but1()
+{
+document.getElementById("b1").style.background = "red";
+x = document.getElementById("b1").innerHTML;
+if(arr1[result] == x)			//1==1
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+                		disabled();
+				counter=-1;
+				clearInterval(counter);
+					
+			}
+		}	
+	else
+		{
+			alert("you lost the game try again");
+            	disabled();
+			alert(counter);	
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+
+//end of function but1
+
+
+//start of function but2
+function but2()
+{
+document.getElementById("b2").style.background = "red";
+x = document.getElementById("b2").innerHTML;
+	if(arr1[result] == x)	//2==2
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				disabled();
+				counter=-1;
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game,try again");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+
+}
+//end of function but2
+
+
+//start of function but3
+function but3()
+{
+document.getElementById("b3").style.background = "red";
+x = document.getElementById("b3").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+//end of function but3
+
+//start of function but4
+
+function but4()
+{
+document.getElementById("b4").style.background = "red";
+x = document.getElementById("b4").innerHTML;
+	if(arr1[result] == x)			//5==6
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+//end of function but4
+
+function but5()
+{
+document.getElementById("b5").style.background = "red";
+x = document.getElementById("b5").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+
+function but6()
+{
+document.getElementById("b6").style.background = "red";
+x = document.getElementById("b6").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                		disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+
+}
+
+function but7()
+{
+document.getElementById("b7").style.background = "red";
+x = document.getElementById("b7").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                		disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+
+function but8()
+{
+document.getElementById("b8").style.background = "red";
+x = document.getElementById("b8").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                		disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+
+function but9()
+{
+document.getElementById("b9").style.background = "red";
+x = document.getElementById("b9").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                		disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+
+function but10()
+{
+document.getElementById("b10").style.background = "red";
+x = document.getElementById("b10").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                		disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+
+function but11()
+{
+document.getElementById("b11").style.background = "red";
+x = document.getElementById("b11").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+				counter=-1;
+                		disabled();
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);
+		}
+}
+
+function but12()
+{
+document.getElementById("b12").style.background = "red";
+x = document.getElementById("b12").innerHTML;
+	if(arr1[result] == x)
+		{
+			result = result + 1;
+			// alert("result = " + result);
+			if(result == 12)
+			{
+				alert("Congratulations, you won the game");
+                disabled();
+				counter=-1;
+				clearInterval(counter);
+			}
+		}
+	else
+		{
+			alert("you lost the game");
+            	disabled();
+			alert(counter);
+			counter=-1;
+			clearInterval(counter);	
+		}
+}
+//End of code to check whether theuser had pressed proper button or not
+
+function timer()
+{
+
+	setInterval(function()
+	{
+	counter--;
+	if(counter >= 0)
+	{
+
+           if(counter>10)
+			{
+		document.getElementById("h1").innerHTML = counter + " sec";
+		document.getElementById("h1").style.color = "green";
+			}
+		else if(counter <= 10)
+			{
+		document.getElementById("h1").innerHTML = counter + " sec";
+		document.getElementById("h1").style.color = "red";
+			}
+	}
+		if(counter ==-1)
+		{
+		clearInterval(counter);
+			if(result == 12)
+			{
+				alert("you completed on time");	
+			}
+				else
+				{
+			            alert("Time's up");
+					disabled();
+				}
+			{
+			}
+		}
+
+	},1000);
+}
+
+function disabled()
+{
+document.getElementById("b1").disabled=true;
+document.getElementById("b2").disabled=true;
+document.getElementById("b3").disabled=true;
+document.getElementById("b4").disabled=true;
+document.getElementById("b5").disabled=true;
+document.getElementById("b6").disabled=true;
+document.getElementById("b7").disabled=true;
+document.getElementById("b8").disabled=true;
+document.getElementById("b9").disabled=true;
+document.getElementById("b10").disabled=true;
+document.getElementById("b11").disabled=true;
+document.getElementById("b12").disabled=true;
+}
+</script>
+
+<head>
+<style>
+button,#sub{padding: 41px 41;
+    background-color: peachpuff;
+    font-size: 24px;}
+
+#sub{font-size:23px;}
+</style>
+</head>
+
+<body>
+<h1 id = "h1" align = center>Timer :</h1>
+<table align=center border=1 width=100%>
+<tr>
+<th><button id = "b1" onclick = "but1();" style="max-width : 123px;max-height:115px;">-</button></th>	
+<th style="max-width : 123px;max-height:50px;"><button id = "b2" onclick = "but2();">-</button></th>
+<th style="width : 123px;height:50px;"><button id = "b3" onclick = "but3();">-</button></th>
+</tr>
+<tr>
+<th style="width : 123px;height:50px;"><button id = "b4" onclick = "but4();">-</button></th>	
+<th style="width : 123px;height:50px;"><button id = "b5" onclick = "but5();">-</button></th>
+<th style="width : 123px;height:50px;"><button id = "b6" onclick = "but6();">-</button></th>
+</tr
+<tr>
+<th style="width : 123px;height:50px;"><button id = "b7" onclick = "but7();">-</button></th>	
+<th style="width : 123px;height:50px;"><button id = "b8" onclick = "but8();">-</button></th>
+<th style="width : 123px;height:50px;"><button id = "b9" onclick = "but9();">-</button></th>
+</tr>
+<tr>
+<th style="width : 123px;height:50px;"><button id = "b10" onclick = "but10();">-</button></th>	
+<th style="width : 123px;height:50px;"><button id = "b11" onclick = "but11();">-</button></th>
+<th style="width : 123px;height:50px;"><button id = "b12" onclick = "but12();">-</button></th>
+</tr>
+
+</table><br><br>
+<center><input type= "button" value = "START" id = "sub" onclick = "start();timer();"></center><br><!--second way to start timer within start function
+<center><input type= "button" value = "TIMER" id = "sub" onclick = "timer();">--></center>
+</body>
+</html>

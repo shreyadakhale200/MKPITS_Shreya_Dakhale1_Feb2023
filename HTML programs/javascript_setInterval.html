@@ -1,0 +1,36 @@
+<html>
+<script language = "Javascript">
+var counter = 60;
+function start()
+{
+setInterval(function () 
+{
+//var res = document.getElementById("p1");
+
+counter--;
+if(counter >= 0)
+	{
+document.getElementById("p1").innerHTML = "TIMER : " + counter + " sec";
+	}
+if(counter ==-1)
+		{	
+clearInterval(counter);
+		}
+	}, 1000);
+}
+
+function stop()
+{
+counter = 60;
+if(counter >= 60)
+{
+clearInterval(counter);
+}
+}
+</script>
+<body>
+<p id = "p1">MKPITS</p><br><br>
+<input type = "button" value = "start" onclick = "start();">
+<input type = "button" value = "stop" onclick = "stop();">
+</body>
+</html>
