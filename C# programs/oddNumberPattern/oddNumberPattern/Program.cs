@@ -18,9 +18,9 @@ namespace oddNumberPattern
             int row, column;
             for(row=1;row<=5;row++)
             {
-                for(column=1;column<=row;column++)
+                for(column=1;column<=row*2-1;column++)
                 {
-                        Console.Write(column*2-1 + " ");
+                        Console.Write(column);
                 }Console.WriteLine();
             }Console.ReadKey();
         }

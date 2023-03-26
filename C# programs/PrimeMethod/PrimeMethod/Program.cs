@@ -30,6 +30,7 @@ namespace PrimeMethod
                     counter++;
                     break;
                 }
+                i++;
             }if(num == 0)
             {
                 Console.WriteLine(num + " neither prime nor Composite");
@@ -42,7 +43,6 @@ namespace PrimeMethod
             {
                 Console.WriteLine(num + " is not prime");
             }
-            i++;
         }
     }
 }
