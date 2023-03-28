@@ -29,7 +29,7 @@ namespace SalaryProgram
             const double hra = 0.32f;
             const double da = 0.45f;
 
-            double basicSalary = employee_salary - hra + da;
+            double basicSalary = employee_salary + hra + da;
 
             Console.WriteLine("Employee No. " + employee_no);
             Console.WriteLine("Employee Name. " + employee_name);
