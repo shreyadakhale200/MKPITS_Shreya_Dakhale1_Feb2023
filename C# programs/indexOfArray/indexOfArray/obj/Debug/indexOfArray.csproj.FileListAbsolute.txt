@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\bin\Debug\indexOfArray.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\bin\Debug\indexOfArray.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\bin\Debug\indexOfArray.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\obj\Debug\indexOfArray.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\obj\Debug\indexOfArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\obj\Debug\indexOfArray.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\obj\Debug\indexOfArray.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\indexOfArray\indexOfArray\obj\Debug\indexOfArray.pdb
