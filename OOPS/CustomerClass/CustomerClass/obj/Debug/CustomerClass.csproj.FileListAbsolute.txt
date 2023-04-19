@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\bin\Debug\CustomerClass.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\bin\Debug\CustomerClass.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\bin\Debug\CustomerClass.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\obj\Debug\CustomerClass.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\obj\Debug\CustomerClass.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\obj\Debug\CustomerClass.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\obj\Debug\CustomerClass.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CustomerClass\CustomerClass\obj\Debug\CustomerClass.pdb
