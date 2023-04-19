@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\bin\Debug\gotoProgram.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\bin\Debug\gotoProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\bin\Debug\gotoProgram.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\obj\Debug\gotoProgram.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\obj\Debug\gotoProgram.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\obj\Debug\gotoProgram.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\obj\Debug\gotoProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\gotoProgram\gotoProgram\obj\Debug\gotoProgram.pdb

@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\bin\Debug\Addition_repeated_number.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\bin\Debug\Addition_repeated_number.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\bin\Debug\Addition_repeated_number.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\obj\Debug\Addition_repeated_number.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\obj\Debug\Addition_repeated_number.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\obj\Debug\Addition_repeated_number.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\obj\Debug\Addition_repeated_number.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Addition_repeated_number\Addition_repeated_number\obj\Debug\Addition_repeated_number.pdb

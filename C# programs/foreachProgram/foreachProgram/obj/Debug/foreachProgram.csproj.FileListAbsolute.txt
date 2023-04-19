@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\bin\Debug\foreachProgram.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\bin\Debug\foreachProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\bin\Debug\foreachProgram.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\obj\Debug\foreachProgram.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\obj\Debug\foreachProgram.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\obj\Debug\foreachProgram.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\obj\Debug\foreachProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\foreachProgram\foreachProgram\obj\Debug\foreachProgram.pdb

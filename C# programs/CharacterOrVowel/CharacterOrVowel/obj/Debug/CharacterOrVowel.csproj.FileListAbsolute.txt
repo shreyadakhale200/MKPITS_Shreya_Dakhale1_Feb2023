@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\bin\Debug\CharacterOrVowel.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\bin\Debug\CharacterOrVowel.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\bin\Debug\CharacterOrVowel.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\obj\Debug\CharacterOrVowel.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\obj\Debug\CharacterOrVowel.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\obj\Debug\CharacterOrVowel.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\obj\Debug\CharacterOrVowel.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\CharacterOrVowel\CharacterOrVowel\obj\Debug\CharacterOrVowel.pdb
