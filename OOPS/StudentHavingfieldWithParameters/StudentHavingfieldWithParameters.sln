@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentHavingfieldWithParameters", "StudentHavingfieldWithParameters\StudentHavingfieldWithParameters.csproj", "{F17AA2CF-52CB-47B7-875A-B636A2BBE788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17AA2CF-52CB-47B7-875A-B636A2BBE788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17AA2CF-52CB-47B7-875A-B636A2BBE788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17AA2CF-52CB-47B7-875A-B636A2BBE788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17AA2CF-52CB-47B7-875A-B636A2BBE788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {729FCC16-72B9-452C-9546-DC00744541E7}
+	EndGlobalSection
+EndGlobal
