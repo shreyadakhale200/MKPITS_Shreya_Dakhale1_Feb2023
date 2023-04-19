@@ -15,12 +15,13 @@ namespace FormDisplay2dArray
         int outer_loop = 0;
         int inner_loop = 0;
         int row, column;
-        int[,] data = new int [3,3];
+        int[,] data;
+          
         private void button1_Click(object sender, EventArgs e)
         {
-            int row = Convert.ToInt32(textBox1.Text);
-            int column = Convert.ToInt32(textBox2.Text);
-            int[,] data = new int[row, column];
+            row = Convert.ToInt32(textBox1.Text);
+            column = Convert.ToInt32(textBox2.Text);
+             data = new int[row, column];
             StringBuilder sb = new StringBuilder();
             // row = 3, col = 3
             /*                      (0,0) (0,1) (0,2)
@@ -56,7 +57,7 @@ namespace FormDisplay2dArray
                     try
                     {
                         data[outer_loop, inner_loop] = Convert.ToInt32(textBox3.Text);
-                        label4.Text += data[outer_loop, inner_loop].ToString() + " ";
+                        //label4.Text += data[outer_loop, inner_loop].ToString() + " ";
                     }
                     catch (Exception ex)
                     {
@@ -91,7 +92,14 @@ namespace FormDisplay2dArray
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            for (int i = 0; i<= row; i++)
+            {
+                for (int j = 0; j <=column; column++)
+                {
+                    label4.Text = data[row,column].ToString();
+                }
+               
+            }
         }
         }
 }

@@ -2,8 +2,9 @@ namespace ForemDisplay1
 {
     public partial class Form1 : Form
     {
-        int counter = 0;
+        
         int[] arr = new int[5];
+        int i = 0;
         public Form1()
         {
             InitializeComponent();
@@ -11,39 +12,25 @@ namespace ForemDisplay1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (counter < arr.Length)
+            if (i < 5)
             {
-                arr[counter] = Convert.ToInt32(textBox1.Text);
-                counter++;
-
-
-                try
-                {
-                    if (arr[counter] != 0)
-                    {
-                        for (int i = 0; i < arr.Length; i++)
-                        {
-                            label2.Text = arr[i].ToString();
-                        }
-                    }
-                }
-                catch
-                {
-                    button1.Enabled = false;
-                }
+                arr[i] = Convert.ToInt32(textBox1.Text);
+                textBox1.Clear();
+                textBox1.Focus();
+                i = i + 1;
             }
-            else if (counter > arr.Length)
+            if(i == 5)
             {
                 button1.Enabled = false;
+                button2.Enabled = true;
             }
-            textBox1.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < arr.Length; i++)
             {
-                label2.Text += " " + arr[i].ToString() + " ";
+                label2.Text += " " + arr[i] + " ";
             }
         }
     }

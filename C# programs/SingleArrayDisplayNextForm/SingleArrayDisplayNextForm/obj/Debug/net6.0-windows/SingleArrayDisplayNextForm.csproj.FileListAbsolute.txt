@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\bin\Debug\net6.0-windows\SingleArrayDisplayNextForm.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\bin\Debug\net6.0-windows\SingleArrayDisplayNextForm.deps.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\bin\Debug\net6.0-windows\SingleArrayDisplayNextForm.runtimeconfig.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\bin\Debug\net6.0-windows\SingleArrayDisplayNextForm.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\bin\Debug\net6.0-windows\SingleArrayDisplayNextForm.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.Form1.resources
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.AssemblyInfo.cs
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\refint\SingleArrayDisplayNextForm.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\SingleArrayDisplayNextForm.genruntimeconfig.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\SingleArrayDisplayNextForm\SingleArrayDisplayNextForm\obj\Debug\net6.0-windows\ref\SingleArrayDisplayNextForm.dll

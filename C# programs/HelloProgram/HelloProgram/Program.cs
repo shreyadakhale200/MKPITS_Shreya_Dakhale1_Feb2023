@@ -10,9 +10,18 @@ namespace HelloProgram
 		{
 			//console is a class in system namespace 
 			//writeline is a method in console class
-			Console.WriteLine("Hello from C# class ;");
-			Console.Write("Hello from mkpits");
+			//Console.WriteLine("Hello from C# class ;");
+			//Console.Write("Hello from mkpits");
+
+			int a;
+			a = hello();
+
 			Console.ReadKey();
+		}
+		static int hello()
+		{
+			Console.WriteLine("Hello C#");
+			return 1;
 		}
 	}
 }

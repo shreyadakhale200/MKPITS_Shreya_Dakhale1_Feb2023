@@ -30,13 +30,11 @@ namespace Different_print_string_array
                             counter++;
                         }
                     }
-                    else
-                    {
-                    }
-                }if(counter==0)
+                }if (counter == 0)
                 {
-                    Console.Write(ch2[i]);
-                }counter = 0;
+                    Console.WriteLine("index " + Array.IndexOf(ch2, ch2[i]) + " : " + ch2[i]);
+                }
+                counter = 0;
             }
             Console.ReadKey();
         }

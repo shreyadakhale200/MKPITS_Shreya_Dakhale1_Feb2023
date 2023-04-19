@@ -39,28 +39,26 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(171, 75);
+            label1.Location = new Point(195, 100);
             label1.Name = "label1";
-            label1.Size = new Size(161, 24);
+            label1.Size = new Size(209, 32);
             label1.TabIndex = 0;
             label1.Text = "Enter number :";
             // 
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(396, 72);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
+            textBox1.Location = new Point(453, 96);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(120, 33);
+            textBox1.Size = new Size(137, 39);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(225, 142);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(257, 189);
             button1.Name = "button1";
-            button1.Size = new Size(107, 51);
+            button1.Size = new Size(122, 68);
             button1.TabIndex = 2;
             button1.Text = "Next";
             button1.UseVisualStyleBackColor = true;
@@ -68,11 +66,11 @@
             // 
             // button2
             // 
+            button2.Enabled = false;
             button2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(396, 142);
-            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Location = new Point(453, 189);
             button2.Name = "button2";
-            button2.Size = new Size(120, 51);
+            button2.Size = new Size(137, 68);
             button2.TabIndex = 3;
             button2.Text = "Display";
             button2.UseVisualStyleBackColor = true;
@@ -82,23 +80,22 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(225, 243);
+            label2.Location = new Point(257, 324);
             label2.Name = "label2";
-            label2.Size = new Size(71, 25);
+            label2.Size = new Size(91, 32);
             label2.TabIndex = 4;
             label2.Text = "Array :";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(800, 451);
             Controls.Add(label2);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
