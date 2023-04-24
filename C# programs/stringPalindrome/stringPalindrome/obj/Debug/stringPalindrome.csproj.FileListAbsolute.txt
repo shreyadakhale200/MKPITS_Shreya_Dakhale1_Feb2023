@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\bin\Debug\stringPalindrome.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\bin\Debug\stringPalindrome.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\bin\Debug\stringPalindrome.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\obj\Debug\stringPalindrome.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\obj\Debug\stringPalindrome.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\obj\Debug\stringPalindrome.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\obj\Debug\stringPalindrome.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\stringPalindrome\stringPalindrome\obj\Debug\stringPalindrome.pdb
