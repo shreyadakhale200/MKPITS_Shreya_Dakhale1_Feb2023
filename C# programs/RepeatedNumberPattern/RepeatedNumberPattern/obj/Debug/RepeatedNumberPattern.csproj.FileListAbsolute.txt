@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\bin\Debug\RepeatedNumberPattern.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\bin\Debug\RepeatedNumberPattern.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\bin\Debug\RepeatedNumberPattern.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\obj\Debug\RepeatedNumberPattern.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\obj\Debug\RepeatedNumberPattern.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\obj\Debug\RepeatedNumberPattern.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\obj\Debug\RepeatedNumberPattern.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\RepeatedNumberPattern\RepeatedNumberPattern\obj\Debug\RepeatedNumberPattern.pdb
