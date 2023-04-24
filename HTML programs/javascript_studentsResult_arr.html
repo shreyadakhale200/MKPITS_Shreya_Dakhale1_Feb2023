@@ -1,0 +1,31 @@
+<html>
+<script language = "Javascript">
+var student;
+for(student=1;student <= 5;student++)
+{
+function calResult()
+{
+var sub = new Array();
+var r="";
+
+sub[0] = parseInt(document.getElementById("m1").value);
+sub[1] = parseInt(document.getElementById("m2").value);
+sub[2] = parseInt(document.getElementById("m3").value);
+var total = sub[0] + sub[1] + sub[2];
+var percentage = (total/300)*100;
+r += "Total : " + total;
+document.getElementById("tot").innerHTML = r;
+r += "Percentage : " + percentage + "<br>";
+document.getElementById("per").innerHTML = r;
+}
+}
+</script>
+<body>
+Subject 1 : <input type = "text" id = "m1"><br>
+Subject 2 : <input type = "text" id = "m2"><br>
+Subject 3 : <input type = "text" id = "m3"><br><br>
+<input type = "button" value = "Result" onclick = "calResult();"><br>
+<span id = "tot"></span><br>
+<span id = "per"></span>
+</body>
+</html>

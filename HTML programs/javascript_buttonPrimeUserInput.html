@@ -1,0 +1,27 @@
+<!--Write a program to accept a number and print whether it is a prime number or not-->
+<html>
+<script language = "Javascript">
+function checkPrime()
+{
+var num = document.getElementById("n1").value;
+var chk=0;
+for(var i = 2;i < num;i++)
+{
+	if(num%i==0)
+	{
+	chk++;
+	break;
+	}
+}if(num == 0 || num == 1)
+document.getElementById("in").innerHTML = num + " is prime";
+else if(chk==0)
+document.getElementById("in").innerHTML = num + " is prime";
+else
+document.getElementById("in").innerHTML = num + " is not prime";
+chk = 0;
+}
+</script>
+Enter number : <input type = "text" id = "n1"><br><br>
+<input type = "button" value = "check" onclick = "checkPrime();"><br>
+<span id = "in"></span>
+</html>

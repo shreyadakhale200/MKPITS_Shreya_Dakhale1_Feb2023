@@ -1,0 +1,18 @@
+<!-- Write a program that calculates the area of a rectangle given its width and height. -->
+<html>
+    <script>
+    function areaOfRectangle()
+    {
+        var width = document.getElementById("n1").value;
+        var height = document.getElementById("n2").value;
+        var Area = width * height;
+        document.getElementById("in").innerHTML = "Area of rectangle is : " + Area;
+    }
+    </script>
+    <body>
+    Enter Rectangle 1 :<input type="text"  id="n1"><br>
+    Enter Rectangle 2 :<input type="text"  id="n2"><br><br>
+    <input type="button" value="Area" onclick="areaOfRectangle();"><br>
+    <span id="in"></span>
+    </body>
+</html>
