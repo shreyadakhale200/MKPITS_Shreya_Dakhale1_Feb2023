@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\bin\Debug\net6.0-windows\WinFormsApp1Percentage.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\bin\Debug\net6.0-windows\WinFormsApp1Percentage.deps.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\bin\Debug\net6.0-windows\WinFormsApp1Percentage.runtimeconfig.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\bin\Debug\net6.0-windows\WinFormsApp1Percentage.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\bin\Debug\net6.0-windows\WinFormsApp1Percentage.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.Form1.resources
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.AssemblyInfo.cs
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\refint\WinFormsApp1Percentage.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\WinFormsApp1Percentage.genruntimeconfig.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsApp1Percentage\WinFormsApp1Percentage\obj\Debug\net6.0-windows\ref\WinFormsApp1Percentage.dll

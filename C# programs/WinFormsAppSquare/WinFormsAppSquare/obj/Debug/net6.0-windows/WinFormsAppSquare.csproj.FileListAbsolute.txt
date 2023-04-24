@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\bin\Debug\net6.0-windows\WinFormsAppSquare.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\bin\Debug\net6.0-windows\WinFormsAppSquare.deps.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\bin\Debug\net6.0-windows\WinFormsAppSquare.runtimeconfig.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\bin\Debug\net6.0-windows\WinFormsAppSquare.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\bin\Debug\net6.0-windows\WinFormsAppSquare.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.Form1.resources
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.AssemblyInfo.cs
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\refint\WinFormsAppSquare.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\WinFormsAppSquare.genruntimeconfig.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\WinFormsAppSquare\WinFormsAppSquare\obj\Debug\net6.0-windows\ref\WinFormsAppSquare.dll
