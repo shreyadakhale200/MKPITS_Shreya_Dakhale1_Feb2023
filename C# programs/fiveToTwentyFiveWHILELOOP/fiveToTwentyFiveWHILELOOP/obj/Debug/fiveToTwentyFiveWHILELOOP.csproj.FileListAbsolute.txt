@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\bin\Debug\fiveToTwentyFiveWHILELOOP.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\bin\Debug\fiveToTwentyFiveWHILELOOP.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\bin\Debug\fiveToTwentyFiveWHILELOOP.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\obj\Debug\fiveToTwentyFiveWHILELOOP.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\obj\Debug\fiveToTwentyFiveWHILELOOP.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\obj\Debug\fiveToTwentyFiveWHILELOOP.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\obj\Debug\fiveToTwentyFiveWHILELOOP.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFiveWHILELOOP\fiveToTwentyFiveWHILELOOP\obj\Debug\fiveToTwentyFiveWHILELOOP.pdb
