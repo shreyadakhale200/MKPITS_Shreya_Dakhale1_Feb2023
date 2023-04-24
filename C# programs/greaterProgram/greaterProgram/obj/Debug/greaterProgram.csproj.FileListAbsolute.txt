@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\bin\Debug\greaterProgram.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\bin\Debug\greaterProgram.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\bin\Debug\greaterProgram.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\obj\Debug\greaterProgram.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\obj\Debug\greaterProgram.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\obj\Debug\greaterProgram.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\obj\Debug\greaterProgram.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\greaterProgram\greaterProgram\obj\Debug\greaterProgram.pdb

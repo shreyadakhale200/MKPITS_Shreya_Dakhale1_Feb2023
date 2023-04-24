@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\bin\Debug\123,12,1NewMethod.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\bin\Debug\123,12,1NewMethod.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\bin\Debug\123,12,1NewMethod.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\obj\Debug\123,12,1NewMethod.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\obj\Debug\123,12,1NewMethod.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\obj\Debug\123,12,1NewMethod.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\obj\Debug\123,12,1NewMethod.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\123,12,1NewMethod\123,12,1NewMethod\obj\Debug\123,12,1NewMethod.pdb
