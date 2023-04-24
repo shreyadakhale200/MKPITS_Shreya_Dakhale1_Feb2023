@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\bin\Debug\Destructor.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\bin\Debug\Destructor.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\bin\Debug\Destructor.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\obj\Debug\Destructor.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\obj\Debug\Destructor.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\obj\Debug\Destructor.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\obj\Debug\Destructor.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\Destructor\Destructor\obj\Debug\Destructor.pdb
