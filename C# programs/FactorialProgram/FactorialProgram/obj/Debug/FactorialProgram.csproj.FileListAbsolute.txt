@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\bin\Debug\FactorialProgram.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\bin\Debug\FactorialProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\bin\Debug\FactorialProgram.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\obj\Debug\FactorialProgram.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\obj\Debug\FactorialProgram.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\obj\Debug\FactorialProgram.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\obj\Debug\FactorialProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgram\FactorialProgram\obj\Debug\FactorialProgram.pdb

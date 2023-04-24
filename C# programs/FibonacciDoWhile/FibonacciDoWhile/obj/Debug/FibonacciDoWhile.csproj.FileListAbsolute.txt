@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\bin\Debug\FibonacciDoWhile.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\bin\Debug\FibonacciDoWhile.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\bin\Debug\FibonacciDoWhile.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\obj\Debug\FibonacciDoWhile.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\obj\Debug\FibonacciDoWhile.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\obj\Debug\FibonacciDoWhile.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\obj\Debug\FibonacciDoWhile.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FibonacciDoWhile\FibonacciDoWhile\obj\Debug\FibonacciDoWhile.pdb
