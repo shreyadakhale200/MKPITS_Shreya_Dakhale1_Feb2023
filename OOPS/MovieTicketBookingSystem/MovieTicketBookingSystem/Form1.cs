@@ -11,6 +11,7 @@ namespace MovieTicketBookingSystem
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
             comboBox3.Items.Clear();
             //comboBox2.Items.Clear();
             comboBox3.Text = "";
@@ -40,6 +41,7 @@ namespace MovieTicketBookingSystem
                     //Interstellar
                     //Rocket Boys
                     //Martian
+
             }
         }
 
@@ -135,9 +137,7 @@ namespace MovieTicketBookingSystem
             else if (radioButton2.Checked)
             {
                 mt = new BoxOffice();
-
             }
-
             string TotalPrice = mt.TicketPrice(number_ofTickets, TicketPrice);
             label5.Text += "\n" + MovieName + Environment.NewLine;
             label5.Text += TheatreName + Environment.NewLine;
@@ -145,5 +145,6 @@ namespace MovieTicketBookingSystem
             label5.Text += "Your tickets are : " + number_ofTickets + Environment.NewLine;
             label5.Text += TotalPrice.ToString();
         }
+
     }
 }
