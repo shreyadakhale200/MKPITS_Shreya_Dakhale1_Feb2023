@@ -1,0 +1,30 @@
+<!-- 1 Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen. -->
+<html>
+<script>
+function oddOrEven()
+{
+var first = document.getElementById("f1").value;
+var last = document.getElementById("l1").value;
+var r = "";
+for(first;first<=last;first++)
+{
+if(first%2==0)
+{
+    r += first + " is even " + "<br>";
+    document.getElementById("in").innerHTML = r;
+}    
+else
+{
+    r += first + " is odd " + "<br>";
+    document.getElementById("in").innerHTML = r;
+}
+}
+}
+</script>
+<body>
+Enter first : <input type="text" id="f1"><br><br>
+Enter last : <input type="text" id="l1"><br><br>
+<input type="button" value="SUBMIT" onclick="oddOrEven();"><br>
+<span id="in"></span>
+</body>
+</html>

@@ -1,0 +1,73 @@
+/*vertical-align
+	background-attachment:fixed*/
+a{
+	text-decoration:none;
+	color:black;
+	font-size:22px;
+	font-family:"Poppins", sans-serif;
+	}
+td{
+	word-spacing:40px;
+	padding-top: 10px;
+    padding-left: 7px;
+	}
+.main{
+	color:white;
+	background-image:url('pexels-kevin-ku-577585.jpg');
+	padding: 93px 13px 167px 19px;
+    	margin: 7px -27px 11px -8px;
+	background-attachment:fixed;
+	}
+.main h1{
+		font-size:60px;
+    		margin: 10px -27px 3px 55px;
+		font-family:"Raleway", sans-serif;
+		}
+img{
+	margin: -10px 2px 3px 56px;
+    	font-size: 25px;
+	width:100px;
+	}
+.main p{	
+	margin: -35px 2px 3px 56px;
+    	font-size: 25px;
+	font-family:"Raleway", sans-serif;
+	}
+.bod p{
+	word-spacing: 4px;
+    	text-align: justify;
+	font-family:"Raleway", sans-serif;
+	font-size:19px;	
+	margin-left:56px;
+	margin-top: -1%;
+	color:#4d5054;
+		}
+.bod h1{
+	word-spacing: 2px;
+    	text-align: justify;
+    	font-family: "Raleway", sans-serif;
+    	font-size: 26px;
+    	margin-left: 56px;
+    	margin-top: -34%;
+    	font-weight: 600;
+	color:#4d5054;
+		}
+.bod img{
+	width: 622px;
+    height: 100%;
+    margin-left: 28px;
+	}
+.bod table{
+	margin-top:10px;
+	}
+.bod ul{
+	word-spacing: 4px;
+    	text-align: justify;
+	font-family:"Raleway", sans-serif;
+	font-size:19px;	
+	margin-left:36px;
+	color:#4d5054;
+		}
+
+
+

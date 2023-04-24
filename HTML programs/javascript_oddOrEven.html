@@ -1,0 +1,20 @@
+<!--Write a program that determines whether a given number is even or odd.-->
+<html>
+<script language = "Javascript">
+function oddOrEven()
+{
+var num = document.getElementById("n1").value;
+if(num%2==0)
+{
+    document.getElementById("in").innerHTML = num + " is even";
+}
+else
+document.getElementById("in").innerHTML = num + " is odd";
+}
+</script>
+<body>
+Enter number :<input type="text" id = "n1" ><br><br>
+<input type="button" value="ODD/EVEN" onclick="oddOrEven();"><br>
+<span id="in"></span>
+</body>
+</html>

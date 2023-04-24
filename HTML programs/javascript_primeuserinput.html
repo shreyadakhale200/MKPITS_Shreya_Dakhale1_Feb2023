@@ -1,0 +1,23 @@
+<!--Create a program that checks if a given number is a prime number.-->
+<html>
+<script>
+{
+var n1 = prompt("Enter number");
+var chk=0;
+for(var i = 2;i < n1;i++)
+{
+	if(n1%i==0)
+	{
+	chk++;
+	break;
+	}
+}if(n1 == 0)
+document.write(n1 + " is prime");
+else if(chk==0 || n1== 1)
+document.write(n1 + " is prime");
+else
+document.write(n1 + " is not prime");
+}
+chk = 0;
+</script>
+</html>

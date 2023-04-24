@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\bin\Debug\net6.0-windows\CalculatorFormUsingclass.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\bin\Debug\net6.0-windows\CalculatorFormUsingclass.deps.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\bin\Debug\net6.0-windows\CalculatorFormUsingclass.runtimeconfig.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\bin\Debug\net6.0-windows\CalculatorFormUsingclass.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\bin\Debug\net6.0-windows\CalculatorFormUsingclass.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.Form1.resources
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.AssemblyInfo.cs
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\refint\CalculatorFormUsingclass.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\CalculatorFormUsingclass.genruntimeconfig.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\CalculatorFormUsingclass\CalculatorFormUsingclass\obj\Debug\net6.0-windows\ref\CalculatorFormUsingclass.dll

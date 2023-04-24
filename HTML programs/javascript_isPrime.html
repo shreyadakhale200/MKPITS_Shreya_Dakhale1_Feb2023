@@ -1,0 +1,24 @@
+<!--Write a while or do while loop that prints the first 10 prime numbers.-->
+<html>
+<script language = "Javascript">
+var first = prompt("Enter first number : ");
+var last = prompt("Enter last number : ");
+var isPrime=false;
+var j = 2;
+for(first;first<=last;first++)
+{
+for(j=2;j<first;j++)
+	{
+		if(first%j==0)
+		{
+			isPrime = false;
+			break;
+		}
+	}
+if(isPrime == true || first == 1)
+document.write(first + " ");
+j=2;
+isPrime = true;
+}
+</script>
+</html>
