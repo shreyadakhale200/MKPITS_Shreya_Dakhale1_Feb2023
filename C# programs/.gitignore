@@ -1,5 +1,6 @@
 *.csproj
 *.csproj.user
 *.resx
-*/bin
-*/obj
+*.bin/
+*.obj/
+*.Properties/

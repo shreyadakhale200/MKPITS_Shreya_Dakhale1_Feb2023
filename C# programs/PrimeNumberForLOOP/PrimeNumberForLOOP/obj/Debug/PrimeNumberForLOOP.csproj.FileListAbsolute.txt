@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\bin\Debug\PrimeNumberForLOOP.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\bin\Debug\PrimeNumberForLOOP.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\bin\Debug\PrimeNumberForLOOP.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\obj\Debug\PrimeNumberForLOOP.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\obj\Debug\PrimeNumberForLOOP.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\obj\Debug\PrimeNumberForLOOP.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\obj\Debug\PrimeNumberForLOOP.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\PrimeNumberForLOOP\PrimeNumberForLOOP\obj\Debug\PrimeNumberForLOOP.pdb
