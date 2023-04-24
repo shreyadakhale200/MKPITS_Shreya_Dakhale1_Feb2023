@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\bin\Debug\operatorProgram.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\bin\Debug\operatorProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\bin\Debug\operatorProgram.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\obj\Debug\operatorProgram.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\obj\Debug\operatorProgram.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\obj\Debug\operatorProgram.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\obj\Debug\operatorProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\operatorProgram\operatorProgram\obj\Debug\operatorProgram.pdb

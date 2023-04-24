@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\bin\Debug\outAdd.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\bin\Debug\outAdd.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\bin\Debug\outAdd.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\obj\Debug\outAdd.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\obj\Debug\outAdd.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\obj\Debug\outAdd.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\obj\Debug\outAdd.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\outAdd\outAdd\obj\Debug\outAdd.pdb
