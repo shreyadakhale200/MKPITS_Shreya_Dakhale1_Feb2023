@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\bin\Debug\methodInOtherMethod.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\bin\Debug\methodInOtherMethod.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\bin\Debug\methodInOtherMethod.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\obj\Debug\methodInOtherMethod.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\obj\Debug\methodInOtherMethod.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\obj\Debug\methodInOtherMethod.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\obj\Debug\methodInOtherMethod.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\methodInOtherMethod\methodInOtherMethod\obj\Debug\methodInOtherMethod.pdb
