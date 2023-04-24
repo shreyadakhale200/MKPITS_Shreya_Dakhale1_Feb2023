@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\bin\Debug\HelloProgram.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\bin\Debug\HelloProgram.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\bin\Debug\HelloProgram.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\obj\Debug\HelloProgram.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\obj\Debug\HelloProgram.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\obj\Debug\HelloProgram.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\obj\Debug\HelloProgram.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\HelloProgram\HelloProgram\obj\Debug\HelloProgram.pdb
