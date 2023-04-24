@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\bin\Debug\MultiplicationOfMatrices.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\bin\Debug\MultiplicationOfMatrices.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\bin\Debug\MultiplicationOfMatrices.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\obj\Debug\MultiplicationOfMatrices.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\obj\Debug\MultiplicationOfMatrices.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\obj\Debug\MultiplicationOfMatrices.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\obj\Debug\MultiplicationOfMatrices.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationOfMatrices\MultiplicationOfMatrices\obj\Debug\MultiplicationOfMatrices.pdb
