@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\bin\Debug\Prime1-20.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\bin\Debug\Prime1-20.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\bin\Debug\Prime1-20.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\obj\Debug\Prime1-20.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\obj\Debug\Prime1-20.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\obj\Debug\Prime1-20.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\obj\Debug\Prime1-20.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime1-20\Prime1-20\obj\Debug\Prime1-20.pdb
