@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("carClass")]
+[assembly: AssemblyTitle("ClassHavingFeildMethods")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP")]
-[assembly: AssemblyProduct("carClass")]
+[assembly: AssemblyProduct("ClassHavingFeildMethods")]
 [assembly: AssemblyCopyright("Copyright © HP 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("31a31807-571d-492d-9830-74f03672d9d5")]
+[assembly: Guid("ce4d7d98-2db5-4150-958f-88ca24aaf9dd")]
 
 // Version information for an assembly consists of the following four values:
 //

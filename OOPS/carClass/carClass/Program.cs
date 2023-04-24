@@ -33,7 +33,7 @@ namespace carClass
         static void Main(string[] args)
         {
             car c1 = new car();
-            
+
             Console.WriteLine("Enter Brand name of car : ");
             string name = Console.ReadLine();
 
@@ -44,7 +44,7 @@ namespace carClass
             double price = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter Mileage of car : ");
-            int mileage = Convert.ToInt32(Console.ReadLine());  
+            int mileage = Convert.ToInt32(Console.ReadLine());
 
             c1.getCarInfo(name, colour, price, mileage);
             c1.displayCarInfo();
