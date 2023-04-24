@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\bin\Debug\net6.0-windows\AccountFormClass.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\bin\Debug\net6.0-windows\AccountFormClass.deps.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\bin\Debug\net6.0-windows\AccountFormClass.runtimeconfig.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\bin\Debug\net6.0-windows\AccountFormClass.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\bin\Debug\net6.0-windows\AccountFormClass.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.Form1.resources
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.AssemblyInfo.cs
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\refint\AccountFormClass.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\AccountFormClass.genruntimeconfig.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\AccountFormClass\AccountFormClass\obj\Debug\net6.0-windows\ref\AccountFormClass.dll

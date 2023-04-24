@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\bin\Debug\Square_recursion.exe.config
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\bin\Debug\Square_recursion.exe
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\bin\Debug\Square_recursion.pdb
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\obj\Debug\Square_recursion.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\obj\Debug\Square_recursion.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\obj\Debug\Square_recursion.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\obj\Debug\Square_recursion.exe
+C:\Users\HP\Desktop\HTML for me\Square_recursion\Square_recursion\obj\Debug\Square_recursion.pdb

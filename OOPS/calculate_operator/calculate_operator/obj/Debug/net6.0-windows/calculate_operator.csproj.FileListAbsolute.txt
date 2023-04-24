@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.Form1.resources
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.AssemblyInfo.cs
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\bin\Debug\net6.0-windows\calculate_operator.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\bin\Debug\net6.0-windows\calculate_operator.deps.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\bin\Debug\net6.0-windows\calculate_operator.runtimeconfig.json
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\bin\Debug\net6.0-windows\calculate_operator.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\bin\Debug\net6.0-windows\calculate_operator.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\refint\calculate_operator.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\calculate_operator.genruntimeconfig.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\calculate_operator\calculate_operator\obj\Debug\net6.0-windows\ref\calculate_operator.dll
