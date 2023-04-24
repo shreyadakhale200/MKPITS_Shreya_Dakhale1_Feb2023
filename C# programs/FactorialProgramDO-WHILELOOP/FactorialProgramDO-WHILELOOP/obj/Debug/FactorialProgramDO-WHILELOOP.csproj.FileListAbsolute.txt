@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\bin\Debug\FactorialProgramDO-WHILELOOP.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\bin\Debug\FactorialProgramDO-WHILELOOP.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\bin\Debug\FactorialProgramDO-WHILELOOP.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\obj\Debug\FactorialProgramDO-WHILELOOP.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\obj\Debug\FactorialProgramDO-WHILELOOP.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\obj\Debug\FactorialProgramDO-WHILELOOP.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\obj\Debug\FactorialProgramDO-WHILELOOP.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\FactorialProgramDO-WHILELOOP\FactorialProgramDO-WHILELOOP\obj\Debug\FactorialProgramDO-WHILELOOP.pdb
