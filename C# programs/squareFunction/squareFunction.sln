@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "squareFunction", "squareFunction\squareFunction.csproj", "{708E410D-5100-4C06-A41E-DBBB10DE0EF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{708E410D-5100-4C06-A41E-DBBB10DE0EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708E410D-5100-4C06-A41E-DBBB10DE0EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708E410D-5100-4C06-A41E-DBBB10DE0EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708E410D-5100-4C06-A41E-DBBB10DE0EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8293567-297A-47DA-8284-2C369F091DED}
+	EndGlobalSection
+EndGlobal
