@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\bin\Debug\Prime_recurse.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\bin\Debug\Prime_recurse.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\bin\Debug\Prime_recurse.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\obj\Debug\Prime_recurse.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\obj\Debug\Prime_recurse.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\obj\Debug\Prime_recurse.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\obj\Debug\Prime_recurse.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\Prime_recurse\Prime_recurse\obj\Debug\Prime_recurse.pdb

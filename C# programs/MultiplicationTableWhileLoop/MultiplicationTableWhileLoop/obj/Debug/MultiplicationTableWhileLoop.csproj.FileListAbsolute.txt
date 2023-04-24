@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\bin\Debug\MultiplicationTableWhileLoop.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\bin\Debug\MultiplicationTableWhileLoop.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\bin\Debug\MultiplicationTableWhileLoop.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\obj\Debug\MultiplicationTableWhileLoop.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\obj\Debug\MultiplicationTableWhileLoop.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\obj\Debug\MultiplicationTableWhileLoop.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\obj\Debug\MultiplicationTableWhileLoop.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\MultiplicationTableWhileLoop\MultiplicationTableWhileLoop\obj\Debug\MultiplicationTableWhileLoop.pdb
