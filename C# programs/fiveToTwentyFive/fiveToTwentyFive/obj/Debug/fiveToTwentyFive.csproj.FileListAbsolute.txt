@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\bin\Debug\fiveToTwentyFive.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\bin\Debug\fiveToTwentyFive.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\bin\Debug\fiveToTwentyFive.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\obj\Debug\fiveToTwentyFive.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\obj\Debug\fiveToTwentyFive.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\obj\Debug\fiveToTwentyFive.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\obj\Debug\fiveToTwentyFive.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\fiveToTwentyFive\fiveToTwentyFive\obj\Debug\fiveToTwentyFive.pdb
