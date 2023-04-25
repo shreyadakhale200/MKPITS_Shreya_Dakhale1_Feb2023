@@ -9,18 +9,19 @@ namespace RailwayReservationSystem
     abstract class Train
     {
         public int Id;
-        public string trainName {get;set;}
-        public string source { get;set;}
-        public string destination { get;set;}
+        public string trainName { get; set; }
+        public string source { get; set; }
+        public string destination { get; set; }
         public int capacity;
     }
-    class Passenger:Train
+    class Passenger : Train
     {
         public int passengerId;
-        public string Name { get;set;}
-        public string Address { get;set;}
+        public string Name { get; set; }
+        public string Address { get; set; }
         public double phone { get; set; }
-    internal class Reservation
-    {
+        internal class Reservation
+        {
+        }
     }
 }
