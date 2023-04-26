@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\bin\Debug\StaticField.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\bin\Debug\StaticField.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\bin\Debug\StaticField.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\obj\Debug\StaticField.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\obj\Debug\StaticField.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\obj\Debug\StaticField.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\obj\Debug\StaticField.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\StaticField\StaticField\obj\Debug\StaticField.pdb

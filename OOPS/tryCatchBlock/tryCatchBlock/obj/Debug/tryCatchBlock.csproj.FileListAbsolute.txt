@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\bin\Debug\tryCatchBlock.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\bin\Debug\tryCatchBlock.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\bin\Debug\tryCatchBlock.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\obj\Debug\tryCatchBlock.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\obj\Debug\tryCatchBlock.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\obj\Debug\tryCatchBlock.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\obj\Debug\tryCatchBlock.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\tryCatchBlock\tryCatchBlock\obj\Debug\tryCatchBlock.pdb
