@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\bin\Debug\breakContinue1.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\bin\Debug\breakContinue1.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\bin\Debug\breakContinue1.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\obj\Debug\breakContinue1.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\obj\Debug\breakContinue1.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\obj\Debug\breakContinue1.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\obj\Debug\breakContinue1.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\breakContinue1\breakContinue1\obj\Debug\breakContinue1.pdb

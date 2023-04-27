@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\bin\Debug\EligibleProgram.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\bin\Debug\EligibleProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\bin\Debug\EligibleProgram.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\obj\Debug\EligibleProgram.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\obj\Debug\EligibleProgram.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\obj\Debug\EligibleProgram.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\obj\Debug\EligibleProgram.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\EligibleProgram\EligibleProgram\obj\Debug\EligibleProgram.pdb

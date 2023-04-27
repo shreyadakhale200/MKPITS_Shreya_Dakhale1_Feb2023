@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\bin\Debug\transposeArray.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\bin\Debug\transposeArray.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\bin\Debug\transposeArray.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\obj\Debug\transposeArray.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\obj\Debug\transposeArray.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\obj\Debug\transposeArray.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\obj\Debug\transposeArray.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\transposeArray\transposeArray\obj\Debug\transposeArray.pdb
