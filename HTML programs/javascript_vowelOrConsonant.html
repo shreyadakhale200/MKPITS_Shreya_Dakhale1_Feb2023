@@ -1,0 +1,40 @@
+<html>
+<script language = "Javascript">
+function calculate()
+{
+var character, check;
+character = document.getElementById("ch").value;
+switch(character)
+{
+case 'a':
+check = character + " is a vowel";
+break;
+
+case 'e':
+check = character + " is a vowel";
+break;
+
+case 'i':
+check = character + " is a vowel";
+break;
+
+case 'o':
+check = character + " is a vowel";
+break;
+
+case 'u':
+check = character + " is a vowel";
+break;
+
+default:
+check = character + " is a consonent";
+break;
+}
+alert(check);
+}
+</script>
+<body>
+Enter a character : <input type = "text" id = "ch"><br><br>
+<input type = "button" value = "check"  onclick = "calculate();">
+</body>
+</html>

@@ -1,0 +1,239 @@
+<html>
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+<script language="JavaScript">
+var prevnum = 0;
+var operator;
+function show1()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*" || document.f1.t1.value == "/"|| document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = " ";
+        document.f1.t1.value = "1";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "1";
+    }
+}
+function show2()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "2";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "2";
+    }
+}
+function show3()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/"|| document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "3";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "3";
+    }
+}
+function show4()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "4";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "4";
+    }
+}
+function show5()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "5";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "5";
+    }
+}
+function show6()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "6";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "6";
+    }
+}
+function show7()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "7";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "7";
+    }
+}
+function show8()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "8";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "8";
+    }
+}
+function show9()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "9";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "9";
+    }
+}
+function show0()
+{
+    if(document.f1.t1.value == "+" || document.f1.t1.value == "-" || document.f1.t1.value == "*"|| document.f1.t1.value == "/" || document.f1.t1.value == "%")
+    {
+        document.f1.t1.value = "";
+        document.f1.t1.value = "0";
+    }
+    else
+    {
+        document.f1.t1.value = document.f1.t1.value + "0";
+    }
+}
+function showplus()
+{
+prevnum = document.f1.t1.value;
+document.f1.t1.value = "+";
+operator = "+"; // prevnum = 1
+                        // operator = +
+}
+function showminus()
+{
+prevnum = document.f1.t1.value; //prevnum = 2
+document.f1.t1.value = "-";
+operator = "-";
+}
+
+function showdivide()
+{
+    // num1  /   num2;
+    // ^     ^    ^
+    // prev oper  document.f1.t1.value
+    prevnum = document.f1.t1.value;
+    operator = "/";
+    document.f1.t1.value = "/";
+}
+
+function showmultiply()
+{
+    prevnum = document.f1.t1.value; //prevnum = 2
+    document.f1.t1.value = "*";
+    operator = "*";   
+}
+function showmodulus()
+{
+    // num1 % num2;
+    prevnum = document.f1.t1.value;
+    operator = "%";
+    document.f1.t1.value = "%";
+}
+function showequal()
+{
+    if(operator=="+")
+    {
+        var result = parseInt(prevnum) + parseInt(document.f1.t1.value);
+        document.f1.t1.value = result;
+    }
+    else if(operator=="-")
+    {
+        var result = prevnum - document.f1.t1.value;
+        document.f1.t1.value = result;
+    }
+    else if(operator =="*")
+    {
+        var result = prevnum * document.f1.t1.value;
+        document.f1.t1.value = result;
+    }
+    else if(operator == "/")
+    {
+        var result = prevnum / document.f1.t1.value;
+        document.f1.t1.value = result;
+    }
+    else
+    {
+        var result = prevnum % document.f1.t1.value;
+        document.f1.t1.value = result;
+    }
+}
+</script>
+<body>
+    <form name="f1"  style="width:400;height: 500px;border: 4px solid gray;">
+        <table width="100%" style="border:4px solid black;">
+            <tr>
+                <td><input type="text" name="t1" style="padding: 25px;border: 3px solid black;"></td>
+            </tr>
+        </table><br>
+        <table width=100%;">
+            <tr>
+                <td><input type="button" value="1" name = "b1" style="padding:25px;" onclick="show1();"></td>
+                <td><input type="button" value="2" name = "b2" style="padding:25px;" onclick="show2();"></td>
+                <td><input type="button" value="3" name = "b3" style="padding:25px;" onclick="show3();"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" name = "b4" style="padding:25px;" onclick="show4();"></td>
+                <td><input type="button" value="5" name = "b5" style="padding:25px;" onclick="show5();"></td>
+                <td><input type="button" value="6" name = "b6" style="padding:25px;" onclick="show6();"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" name = "b7" style="padding:25px;" onclick="show7();"></td>
+                <td><input type="button" value="8" name = "b8" style="padding:25px;" onclick="show8();"></td>
+                <td><input type="button" value="9" name = "b9" style="padding:25px;" onclick="show9();"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" name = "b10" style="padding:25px;" onclick="show0();"></td>
+                <td><input type="button" value="+" name = "plus" style="padding:25px;" onclick="showplus();"></td>
+                <td><input type="button" value="-" name = "minus" style="padding:25px;" onclick="showminus();"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="=" name = "equal" style="padding:25px;" onclick="showequal();"></td>
+                
+                <td><input type="button" value="/" name = "divide" style="padding:25px;" onclick="showdivide();"></td>
+                
+                <td><input type="button" value="*" name = "multiply" style = "padding: 25px;" onclick="showmultiply();"></td>
+                
+                <td><input type="reset" value="Clr" name = "rsest" style="padding:25px;" ></td>
+                
+                <td><input type="button" value="%" name = "modulus" style = "padding: 25px;" onclick="showmodulus();"></td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

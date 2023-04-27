@@ -1,0 +1,41 @@
+<!--Write a while or do while loop that prints the first 10 prime numbers.-->
+<html>
+<script language = "Javascript">
+function primeCheck()
+{
+var first,last,chk=0,j,r="";
+var first = document.getElementById("f1").value;
+var last  = document.getElementById("l1").value;
+for(first;first<=last;first++)
+{
+	for(j=2;j<first;j++)
+	{
+        if(first%j==0)
+		{
+			chk++;
+			break;
+		}
+	}if(first == 0 || first == 1)
+    {
+        r += first + " ";
+        document.getElementById("in").innerHTML = "Prime numbers are : " + r;
+    // document.getElementById("in").innerHTML = r;
+}
+else if(chk==0)
+{
+    r += first + " ";
+    document.getElementById("in").innerHTML = "Prime numbers are : " + r;
+    // document.getElementById("in").innerHTML = r;
+}
+	chk=0;
+	j=2;
+}
+}
+</script>
+<body>
+Enter first : <input type = "text" id = "f1"><br><br>
+Enter last : <input type = "text" id = "l1"><br><br>
+<input type = "button" value = "Prime" onclick = "primeCheck();"><br>
+<span id="in"></span>
+</body>
+</html>
