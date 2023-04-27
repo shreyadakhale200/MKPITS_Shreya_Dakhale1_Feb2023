@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\bin\Debug\ConvertToSByteProgram.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\bin\Debug\ConvertToSByteProgram.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\bin\Debug\ConvertToSByteProgram.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\obj\Debug\ConvertToSByteProgram.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\obj\Debug\ConvertToSByteProgram.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\obj\Debug\ConvertToSByteProgram.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\obj\Debug\ConvertToSByteProgram.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\ConvertToSByteProgram\ConvertToSByteProgram\obj\Debug\ConvertToSByteProgram.pdb

@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\bin\Debug\StudentNameArray.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\bin\Debug\StudentNameArray.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\bin\Debug\StudentNameArray.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\obj\Debug\StudentNameArray.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\obj\Debug\StudentNameArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\obj\Debug\StudentNameArray.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\obj\Debug\StudentNameArray.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\StudentNameArray\StudentNameArray\obj\Debug\StudentNameArray.pdb
