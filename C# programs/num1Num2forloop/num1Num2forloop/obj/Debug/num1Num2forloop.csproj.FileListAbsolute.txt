@@ -1,8 +1,0 @@
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\bin\Debug\num1Num2forloop.exe.config
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\bin\Debug\num1Num2forloop.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\bin\Debug\num1Num2forloop.pdb
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\obj\Debug\num1Num2forloop.csproj.AssemblyReference.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\obj\Debug\num1Num2forloop.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\obj\Debug\num1Num2forloop.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\obj\Debug\num1Num2forloop.exe
-C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\C# programs\num1Num2forloop\num1Num2forloop\obj\Debug\num1Num2forloop.pdb
