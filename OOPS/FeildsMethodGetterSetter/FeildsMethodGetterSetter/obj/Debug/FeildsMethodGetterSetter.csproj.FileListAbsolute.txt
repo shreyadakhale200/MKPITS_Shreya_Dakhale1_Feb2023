@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\bin\Debug\FeildsMethodGetterSetter.exe.config
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\bin\Debug\FeildsMethodGetterSetter.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\bin\Debug\FeildsMethodGetterSetter.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\obj\Debug\FeildsMethodGetterSetter.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\obj\Debug\FeildsMethodGetterSetter.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\obj\Debug\FeildsMethodGetterSetter.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\obj\Debug\FeildsMethodGetterSetter.exe
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\OOPS\FeildsMethodGetterSetter\FeildsMethodGetterSetter\obj\Debug\FeildsMethodGetterSetter.pdb
