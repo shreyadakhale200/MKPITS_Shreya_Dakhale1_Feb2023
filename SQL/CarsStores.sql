@@ -85,8 +85,16 @@ zip_code int
 )
 
 insert into customers values(1,'Rupali','Barde',7057,'rupali@gmail.com','Bhandara','Nagpur','MAH',441904)
-insert into customers values(2,'Mayuri',
+insert into customers values(2,'Mayuri','Pal',6580,'mayuri@gmail.com','Shankar Nagar','Nagpur','MAH',440010)
+insert into customers values(3,'Vanshika','Bongade',6430,'vanshika1@gmail.com','Kasauli','Himachal','HIMACHAL',173202)
+insert into customers values(4,'Mahima','Barde',9836,'mahima@gmail.com','Zaina Kadal Rd','Shrinagar','Jammu & Kashmir',173202)
+insert into customers values(5,'Pallavi','Chikhale',4298,'pallavi@gmail.com','Ravi Nagar','Nagpur','MAH',440009)
+
+select * from stores
+select * from categories
 select* from customers
+select * from products
+select * from brands
 
 create table staffs(
 staff_id int primary key,							--primary key(staff_id)
@@ -131,3 +139,22 @@ discount int
 constraint o foreign key(order_id) references orders(order_id),
 constraint p2 foreign key(product_id) references products(product_id)
 )
+
+--categories and products
+select * from categories 
+select * from products
+
+--INNER JOIN
+SELECT c.category_id,c.category_name,p.product_id,p.product_name
+FROM categories c
+INNER JOIN products p
+ON c.category_id = p.category_id;
+
+--CROSS JOIN
+select c.category_id,c.category_name,
+p.product_id,p.product_name,p.brand_id,p.category_id,p.model_year,p.list_price
+from categories c
+cross join products p
+
+select * from categories
+select * from products
