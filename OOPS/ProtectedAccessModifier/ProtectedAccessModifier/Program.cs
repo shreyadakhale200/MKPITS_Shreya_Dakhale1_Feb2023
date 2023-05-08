@@ -43,6 +43,8 @@ namespace ProtectedAccessModifier
         {
             //Console.WriteLine(School.Principal); //'School.Principal' is inaccesible due to its protection level
             student s = new student(32,"shreya");
+            //s.Principal = "bakshi";
+            //s.Name = "MODER";
             s.display();
         }
     }
