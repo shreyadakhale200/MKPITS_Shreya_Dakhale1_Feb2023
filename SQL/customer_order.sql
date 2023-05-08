@@ -88,6 +88,5 @@ co.order_id,co.orderdate,co.custid,co.prodname,co.qty,co.rate
 from customer c
 cross join customer_order co
 
-
 select * from customer
 select * from customer_order

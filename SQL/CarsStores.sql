@@ -107,6 +107,20 @@ manager_id int
 constraint s1 foreign key(store_id) references stores(store_id)
 )
 
+    ALTER TABLE table_name   
+    MODIFY column_name datatype;  
+
+insert into staffs values(500,'Rupali','Raut','rupadi@gmail.com','On Board',100,10)
+insert into staffs values(501,'Kareena','Andrews','kaifi@gmail.com','Fired',101,20)
+insert into staffs values(502,'Natasha','Asole','nat@gmail.com','On Board',101,10)
+insert into staffs values(503,'Kiran','Kate','kateKi@gmail.com','On Board',102,30)
+insert into staffs values(504,'Ranjana','Gupta','Ranju21@gmail.com','Fired',103,30)
+insert into staffs values(505,'Nanda','Bagde','Nandag@gmail.com','Fired',104,40)
+insert into staffs values(506,'Aastha','Bisht','Aasta@gmail.com','Recruiting in process',104,40)
+--storeid - 100,101,102,103,104
+
+select * from staffs
+
 create table stocks(
 store_id int,										--foreign key(store_id from stores)
 product_id int,		 								--foreign key(product_id from products)
