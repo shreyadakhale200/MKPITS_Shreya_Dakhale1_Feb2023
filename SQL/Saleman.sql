@@ -6,7 +6,8 @@ name varchar(20),
 city varchar(20),
 commision dec(10,2)
 )
-
+delete from salesman where name = 'Paul Adam'
+select * from salesman
 insert into salesman values(5001,'James Hoog','New York',0.15)
 insert into salesman values(5002,'Nail Knite','Paris',0.13)
 insert into salesman values(5005,'Pit Alex','London',0.11)
