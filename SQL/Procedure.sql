@@ -41,11 +41,6 @@ insert into customerOrder values(002,1004,'2021-01-04',103,4,20.00)
 
 
 --creating a procedure(prod1)
-create procedure prod1
-as
-begin
-select * from salesman
-end
 -------------------------------------------------
 --creating a procedure(prod)
 create procedure prod
