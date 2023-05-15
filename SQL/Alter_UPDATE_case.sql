@@ -91,6 +91,16 @@ select * from students_mkpits
 
 select * from studentOfmkpit
 select * from student
+select * from students_mkpits
+
+--alter view input
+--as
+--update input
+--set City = 'Mumbai'
+--where City = 'Amravati'
+--In SQL, views are read-only, and therefore cannot be directly modified
+
+select * from input
 -------------------------------------------------------------------------------------------------------------------------
 create procedure accent
 as
@@ -103,6 +113,7 @@ select * from students_mkpits
 
 --A stored procedure is a precompiled set of SQL statements that is stored in the database and can be executed on demand
 --by calling its name.
+--A stored procedure can return multiple result sets, output parameters, or a return value
 -------------------------------------------------------------------------------------------------------------------------
 --ALTER FUNCTIONS
 --Modifying a table - You can add, modify, or delete columns, change column data types, set or modify constraints, and modify table properties.
