@@ -19,10 +19,6 @@ namespace PicnicDatabase
             comboBox1.Text = " ";
             comboBox2.Text = " ";
             textBox1.Focus();
-            if (label6.Text == result)
-            {
-                label6.Text = " ";
-            }
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)

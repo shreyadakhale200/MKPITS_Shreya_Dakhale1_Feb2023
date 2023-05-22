@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Microsoft.Data.SqlClient;
+using System.Data.SqlClient;
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
@@ -9,7 +9,6 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             //creating a connection string
