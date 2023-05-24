@@ -67,7 +67,6 @@
             textBox7 = new TextBox();
             label18 = new Label();
             label10 = new Label();
-            label14 = new Label();
             panel1 = new Panel();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -229,6 +228,7 @@
             textBox4.ReadOnly = true;
             textBox4.Size = new Size(148, 28);
             textBox4.TabIndex = 14;
+            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // label8
             // 
@@ -277,6 +277,7 @@
             button1.TabIndex = 21;
             button1.Text = "SAVE";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -353,6 +354,7 @@
             textBox8.Size = new Size(300, 31);
             textBox8.TabIndex = 24;
             textBox8.Text = "0";
+            textBox8.TextChanged += textBox8_TextChanged;
             // 
             // label11
             // 
@@ -471,6 +473,7 @@
             textBox7.Size = new Size(297, 31);
             textBox7.TabIndex = 30;
             textBox7.Text = "0";
+            textBox7.TextChanged += textBox7_TextChanged;
             // 
             // label18
             // 
@@ -491,15 +494,6 @@
             label10.TabIndex = 33;
             label10.Text = "Product Store";
             // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Location = new Point(877, 557);
-            label14.Name = "label14";
-            label14.Size = new Size(58, 20);
-            label14.TabIndex = 34;
-            label14.Text = "label14";
-            // 
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
@@ -517,7 +511,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1224, 633);
             Controls.Add(panel1);
-            Controls.Add(label14);
             Controls.Add(label10);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -574,7 +567,6 @@
         private Label label17;
         private GroupBox groupBox3;
         private Label label10;
-        private Label label14;
         private Panel panel1;
         private TextBox textBox7;
         private Label label18;

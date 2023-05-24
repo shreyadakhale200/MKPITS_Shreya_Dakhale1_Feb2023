@@ -36,12 +36,18 @@ namespace ProductStore
             DataSet ds = ProductStoreDatabase.GetTableProductCategory();
             comboBox2.DataSource = ds.Tables[0];
             comboBox2.DisplayMember = "Product_Type_Name";
+            comboBox2.ValueMember = "Product_Category_ID";
+
+
         }
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataSet ds = ProductStoreDatabase.GetTableProductData(comboBox2.Text);
-            comboBox1.DataSource = ds.Tables[0];
+            DataTable productData = ds.Tables[0];
+
+            comboBox1.DataSource = productData;
             comboBox1.DisplayMember = "ProductName";
+            comboBox1.ValueMember = "ProductID";
 
             DataSet ds1 = ProductStoreDatabase.GetTableProductGstDetails(comboBox2.Text);
             foreach (DataRow dr in ds1.Tables[0].Rows)
@@ -138,8 +144,8 @@ namespace ProductStore
 
         private void textBox13_TextChanged(object sender, EventArgs e)
         {
-            //double NetAmount = Convert.ToDouble(textBox13.Text) + Convert.ToDouble(textBox7.Text);
-            //textBox8.Text = NetAmount.ToString();
+            double NetAmount = Convert.ToDouble(textBox13.Text) + Convert.ToDouble(textBox7.Text);
+            textBox8.Text = NetAmount.ToString();
         }
 
         private void textBox11_TextChanged(object sender, EventArgs e)
@@ -149,24 +155,52 @@ namespace ProductStore
 
         private void button2_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
             radioButton1.Checked = false;
             radioButton2.Checked = false;
-            textBox4 .Clear();
-            textBox5 .Clear();
-            textBox6 .Clear();
-            if(textBox11.Text != "")
-            {
-            textBox11.Text = "";
-            textBox12.Text = "";
-            textBox13.Text = "";
-            }
-            comboBox2.Text = "";
+            textBox2.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox11.Text = "0";
+            textBox12.Text = "0";
+            textBox13.Text = "0";
             comboBox1.Text = "";
-            
-            textBox9.Clear();
-            textBox3.Clear();
-            textBox7.Clear();
-            textBox8.Clear();
+            comboBox2.Text = "";
+            textBox9.Text = "0";
+            textBox3.Text = "0";
+            textBox8.Text = "0";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "" || textBox2.Text == "")
+            {
+                MessageBox.Show("Enter valid Details");
+            }
+            else if (textBox3.Text == "0")
+            {
+                MessageBox.Show("Quantity can't be 0");
+            }
+
+
+
+            string result = ProductStoreDatabase.SaveTableInvoiceDetails(textBox1.Text, textBox2.Text, Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(comboBox1.SelectedValue), Convert.ToInt32(nationality), dateTimePicker1.Value, Convert.ToDecimal(textBox3.Text), Convert.ToDecimal(textBox9.Text), Convert.ToDecimal(textBox4.Text), Convert.ToDecimal(textBox5.Text), Convert.ToDecimal(textBox6.Text), Convert.ToDecimal(textBox11.Text), Convert.ToDecimal(textBox12.Text), Convert.ToDecimal(textBox13.Text), Convert.ToDecimal(textBox8.Text));
+            //(textBox1.Text, textBox2.Text, Convert.ToInt32(comboBox1.SelectedValue), Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(nationality), dateTimePicker1.Value, Convert.ToDecimal(textBox3.Text), Convert.ToDecimal(textBox4.Text), Convert.ToDecimal(textBox5.Text), Convert.ToDecimal(textBox6.Text), Convert.ToDecimal(textBox7.Text), Convert.ToDecimal(textBox10.Text), Convert.ToDecimal(textBox11.Text), Convert.ToDecimal(textBox12.Text), Convert.ToDecimal(textBox8.Text));
+            MessageBox.Show(result);
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
