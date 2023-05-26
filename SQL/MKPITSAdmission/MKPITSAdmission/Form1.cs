@@ -146,6 +146,8 @@ namespace MKPITSAdmission
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             gender = Gender.Female;
+
+
         }
     }
 }
