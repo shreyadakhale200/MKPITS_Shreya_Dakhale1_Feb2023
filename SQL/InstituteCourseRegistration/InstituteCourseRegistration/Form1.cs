@@ -26,6 +26,8 @@ namespace InstituteCourseRegistration
             comboBox1.DataSource = ds.Tables[0];
             comboBox1.DisplayMember = "NationName";
             comboBox1.ValueMember = "NationID";
+
+            textBox2.Text = "1000";
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -64,79 +66,46 @@ namespace InstituteCourseRegistration
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            double TotalAmount = Convert.ToDouble(textBox2.Text);
-            textBox4.Text = TotalAmount.ToString();
-        }
-        double studentDiscount = (1000 * 0.5);
-        double itProfessionalDiscount = (3000 * 0.8);
 
-        public void discount()
-        {
-            if (category == 0)
-            {
-                double studentDiscount = Convert.ToDouble(textBox2.Text) * 0.5;
-                textBox4.Text = studentDiscount.ToString();
-            }
-            else if (category == Category.IT_Professional)
-            {
-                double ITProff = Convert.ToDouble(textBox2.Text) * 0.8;
-                textBox4.Text = ITProff.ToString();
-            }
         }
+        double studentAmountPaid = (1000 * 0.5);
+        double itProfessionalAmountPaid = (3000 * 0.8);
 
         public void CalculateBalance()
         {
             if (category == 0)
             {
-                if (Convert.ToDouble(textBox3.Text) >= studentDiscount)
+                if (Convert.ToDouble(textBox3.Text) >= studentAmountPaid)
                 {
                     double Balance = Convert.ToDouble(textBox2.Text) - Convert.ToDouble(textBox3.Text);
                     textBox4.Text = Balance.ToString();
                 }
-                else if (Convert.ToDouble(textBox3.Text) > Convert.ToDouble(textBox2.Text))
-                {
-                    MessageBox.Show("Invalid value");
-                }
-                else
-                {
-                    textBox4.Text = textBox2.Text;
-                }
-
             }
             else if (category == Category.IT_Professional)
             {
-                if (Convert.ToDouble(textBox3.Text) >= itProfessionalDiscount)
+                if (Convert.ToDouble(textBox3.Text) >= itProfessionalAmountPaid)
                 {
                     double Balance = (Convert.ToDouble(textBox2.Text) - Convert.ToDouble(textBox3.Text));
                     textBox4.Text = Balance.ToString();
-                }
-                else
-                {
-                    textBox4.Text = textBox2.Text;
                 }
             }
         }
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            if (textBox3.Text == "")
-            {
-                textBox4.Text = textBox2.Text;
-            }
-            else
-            {
-                CalculateBalance();
-            }
+
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton1.Checked)
             {
+                textBox3.Clear();
+                textBox4.Clear();
                 category = Category.Student;
                 //double student = (1000 * 50) / 100;
                 double student = 1000;
@@ -149,6 +118,8 @@ namespace InstituteCourseRegistration
         {
             if (radioButton2.Checked)
             {
+                textBox3.Clear();
+                textBox4.Clear();
                 category = Category.IT_Professional;
                 //double IT_Professional = (3000 * 80) / 100;
                 double IT_Professional = 3000;
@@ -165,31 +136,49 @@ namespace InstituteCourseRegistration
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (category == 0)
+        }
+
+        public void CheckValidation()
+        {
+            if (category == Category.Student)
             {
                 if (Convert.ToDouble(textBox3.Text) < 500)
                 {
-                    MessageBox.Show("Enter 50% of the fees");
+                    MessageBox.Show("Pay atleast 50% of the fees for student");
+                    textBox3.Clear();
+                    textBox4.Clear();
+                    textBox3.Focus();
                 }
-                else
+                else if(Convert.ToDouble(textBox4.Text) < 0)
                 {
-                    MessageBox.Show("Saved successfully");
+                    MessageBox.Show("Invalid value");
                 }
             }
             else if (category == Category.IT_Professional)
             {
-
                 if (Convert.ToDouble(textBox3.Text) < 2400)
                 {
-                    MessageBox.Show("Enter 80% of the fees");
+                    MessageBox.Show("Pay atleast 80% of the fees for student");
+                    textBox3.Clear();
+                    textBox4.Clear();
+                    textBox3.Focus();
                 }
-                else
+                else if (Convert.ToDouble(textBox4.Text) < 0)
                 {
-                    MessageBox.Show("Saved successfully");
+                    MessageBox.Show("Invalid value");
                 }
             }
         }
+        private void textBox3_Leave(object sender, EventArgs e)
+        {
+            CalculateBalance();
+            CheckValidation();
+            
+        }
 
-
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
     }
 }

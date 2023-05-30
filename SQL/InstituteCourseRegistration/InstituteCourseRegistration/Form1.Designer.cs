@@ -29,13 +29,7 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            comboBox3 = new ComboBox();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
             textBox1 = new TextBox();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
             label2 = new Label();
             groupBox4 = new GroupBox();
             radioButton5 = new RadioButton();
@@ -44,6 +38,12 @@
             groupBox3 = new GroupBox();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
+            comboBox3 = new ComboBox();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
             groupBox2 = new GroupBox();
             dateTimePicker1 = new DateTimePicker();
             textBox4 = new TextBox();
@@ -56,10 +56,12 @@
             label1 = new Label();
             button1 = new Button();
             button2 = new Button();
+            groupBox5 = new GroupBox();
             groupBox1.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
+            groupBox5.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
@@ -71,77 +73,23 @@
             groupBox1.Font = new Font("Arial Narrow", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox1.Location = new Point(24, 94);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(514, 285);
+            groupBox1.Size = new Size(514, 245);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "User Details";
             // 
-            // comboBox3
-            // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(138, 364);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(151, 30);
-            comboBox3.TabIndex = 9;
-            comboBox3.SelectedIndexChanged += comboBox3_SelectedIndexChanged;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(138, 311);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(151, 30);
-            comboBox2.TabIndex = 8;
-            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(138, 260);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 30);
-            comboBox1.TabIndex = 7;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            // 
             // textBox1
             // 
-            textBox1.Location = new Point(127, 224);
+            textBox1.Location = new Point(120, 120);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(211, 28);
             textBox1.TabIndex = 6;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(93, 367);
-            label5.Name = "label5";
-            label5.Size = new Size(34, 22);
-            label5.TabIndex = 5;
-            label5.Text = "City";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(84, 314);
-            label4.Name = "label4";
-            label4.Size = new Size(42, 22);
-            label4.TabIndex = 4;
-            label4.Text = "State";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(73, 263);
-            label3.Name = "label3";
-            label3.Size = new Size(51, 22);
-            label3.TabIndex = 3;
-            label3.Text = "Nation";
-            // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(40, 227);
+            label2.Location = new Point(33, 123);
             label2.Name = "label2";
             label2.Size = new Size(77, 22);
             label2.TabIndex = 2;
@@ -153,9 +101,9 @@
             groupBox4.Controls.Add(radioButton5);
             groupBox4.Controls.Add(radioButton3);
             groupBox4.Controls.Add(radioButton4);
-            groupBox4.Location = new Point(33, 115);
+            groupBox4.Location = new Point(33, 155);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(411, 84);
+            groupBox4.Size = new Size(407, 68);
             groupBox4.TabIndex = 1;
             groupBox4.TabStop = false;
             groupBox4.Text = "Gender";
@@ -200,7 +148,7 @@
             groupBox3.Controls.Add(radioButton1);
             groupBox3.Location = new Point(33, 41);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(411, 84);
+            groupBox3.Size = new Size(411, 69);
             groupBox3.TabIndex = 0;
             groupBox3.TabStop = false;
             groupBox3.Text = "Select Category";
@@ -212,7 +160,6 @@
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(125, 26);
             radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
             radioButton2.Text = "IT Professional";
             radioButton2.UseVisualStyleBackColor = true;
             radioButton2.CheckedChanged += radioButton2_CheckedChanged;
@@ -220,6 +167,7 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
+            radioButton1.Checked = true;
             radioButton1.Location = new Point(49, 36);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(79, 26);
@@ -229,19 +177,67 @@
             radioButton1.UseVisualStyleBackColor = true;
             radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(98, 126);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(151, 28);
+            comboBox3.TabIndex = 9;
+            comboBox3.SelectedIndexChanged += comboBox3_SelectedIndexChanged;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(98, 82);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(151, 28);
+            comboBox2.TabIndex = 8;
+            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(98, 39);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 28);
+            comboBox1.TabIndex = 7;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(37, 129);
+            label5.Name = "label5";
+            label5.Size = new Size(34, 20);
+            label5.TabIndex = 5;
+            label5.Text = "City";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(28, 85);
+            label4.Name = "label4";
+            label4.Size = new Size(43, 20);
+            label4.TabIndex = 4;
+            label4.Text = "State";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(28, 42);
+            label3.Name = "label3";
+            label3.Size = new Size(54, 20);
+            label3.TabIndex = 3;
+            label3.Text = "Nation";
+            // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(comboBox3);
             groupBox2.Controls.Add(dateTimePicker1);
-            groupBox2.Controls.Add(comboBox2);
-            groupBox2.Controls.Add(comboBox1);
             groupBox2.Controls.Add(textBox4);
             groupBox2.Controls.Add(textBox3);
-            groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(textBox2);
-            groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(label9);
-            groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label8);
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(label6);
@@ -276,6 +272,8 @@
             textBox3.Size = new Size(125, 28);
             textBox3.TabIndex = 5;
             textBox3.TextChanged += textBox3_TextChanged;
+            textBox3.KeyPress += textBox3_KeyPress;
+            textBox3.Leave += textBox3_Leave;
             // 
             // textBox2
             // 
@@ -353,11 +351,27 @@
             button2.Text = "RESET";
             button2.UseVisualStyleBackColor = true;
             // 
+            // groupBox5
+            // 
+            groupBox5.Controls.Add(comboBox3);
+            groupBox5.Controls.Add(comboBox2);
+            groupBox5.Controls.Add(label3);
+            groupBox5.Controls.Add(label4);
+            groupBox5.Controls.Add(comboBox1);
+            groupBox5.Controls.Add(label5);
+            groupBox5.Location = new Point(24, 345);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(514, 180);
+            groupBox5.TabIndex = 5;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "Address Details";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1005, 594);
+            Controls.Add(groupBox5);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
@@ -374,6 +388,8 @@
             groupBox3.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            groupBox5.ResumeLayout(false);
+            groupBox5.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -408,5 +424,6 @@
         private Button button1;
         private Button button2;
         private RadioButton radioButton5;
+        private GroupBox groupBox5;
     }
 }
