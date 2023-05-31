@@ -1,0 +1,61 @@
+﻿body {
+    margin-top:3px;
+    margin-left:3px;
+}
+
+img.logo{
+    width:200px;
+  }
+
+#Microsoft,#Teams,#Windows,#Support{
+    font-size:23px;
+    margin-top:5px;
+    margin-left:0em;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.laptop{
+    background-size:cover;
+}
+
+    .btn-primary::after {
+        color: black;
+        background-color: white;
+        border-color: white;
+    }
+
+button{
+    background-color:transparent;
+}
+
+    #Support::after{
+        color:red;
+    }
+
+    #Teams {
+        margin-left: -3em;
+    }
+#Support{
+    margin-left:-1em;
+}
+#Microsoft{
+    margin-left:-1em;
+}
+#ab{
+    margin-left:30px;
+}
+
+
