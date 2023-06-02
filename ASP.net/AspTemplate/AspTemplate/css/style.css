@@ -155,15 +155,16 @@ hr {
 /* Header Section */
 .intro {
 	display: table;
-	width: 100%;
+	width: 110em;
 	padding: 0;
 	text-align: center;
-	background: url(../img/head.jpg) no-repeat center bottom;
+	background: url(../img/randall-ruiz-LVnJlyfa7Zk-unsplash.jpg) no-repeat center bottom;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	height:100em;
 }
 .section-title.center {
 	padding: 10px 0 40px 0;
