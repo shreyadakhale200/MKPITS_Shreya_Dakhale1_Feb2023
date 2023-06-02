@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MasterPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+        <p class="auto-style1">
+            MKP IT Services</p>
+        <p class="auto-style1">
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="home.aspx">Home</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="signup.aspx">Sign up</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="signin.aspx">Sign in</asp:HyperLink>
+        </p>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+    <p>
+        @copyrights 2023</p>
+</body>
+</html>

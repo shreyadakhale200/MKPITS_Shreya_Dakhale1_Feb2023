@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageURL>sql1.png</ImageURL>
+		<Impressions>6</Impressions>
+	</Ad>
+	<Ad>
+		<ImageURL>shortcut.png</ImageURL>
+		<Impressions>4</Impressions>
+	</Ad>
+	<Ad>
+		<ImageURL>c#.png</ImageURL>
+		<Impressions>2</Impressions>
+	</Ad>
+</Advertisements>
