@@ -14,6 +14,7 @@ namespace AsusStores
 {
     internal class InvoiceDatabase
     {
+        //connection wtih database
         private static string ConnectionString = "server = .\\sqlexpress;integrated security = true;database = InvoiceDetails";
         public static SqlConnection GetConnection()
         {
@@ -50,12 +51,12 @@ namespace AsusStores
             return ds;
         }
 
-        public static string InsertCustomerDetails(string firstname,string lastname,string gender,double mobile,double paidamount)
-        {
-            SqlConnection con = GetConnection();
-            string query = "insert into CUSTOMER values(@firstname,@lastname,@gender,@mobile,@paidamount)";
-            SqlCommand command = new SqlCommand(query,con);
-            command.Parameters.AddWithValue("@firstname", firstname);
-        }
+        //public static string InsertCustomerDetails(string firstname,string lastname,string gender,double mobile,double paidamount)
+        //{
+        //    SqlConnection con = GetConnection();
+        //    string query = "insert into CUSTOMER values(@firstname,@lastname,@gender,@mobile,@paidamount)";
+        //    SqlCommand command = new SqlCommand(query,con);
+        //    command.Parameters.AddWithValue("@firstname", firstname);
+        //}
     }
 }

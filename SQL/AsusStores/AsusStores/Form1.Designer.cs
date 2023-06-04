@@ -76,6 +76,7 @@
             dataGridView1 = new DataGridView();
             button1 = new Button();
             button2 = new Button();
+            label1 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -139,6 +140,7 @@
             textBox6.ReadOnly = true;
             textBox6.Size = new Size(140, 30);
             textBox6.TabIndex = 7;
+            textBox6.Text = "0";
             // 
             // textBox5
             // 
@@ -229,6 +231,7 @@
             textBox11.ReadOnly = true;
             textBox11.Size = new Size(66, 30);
             textBox11.TabIndex = 13;
+            textBox11.TextChanged += textBox11_TextChanged;
             // 
             // dateTimePicker1
             // 
@@ -252,6 +255,7 @@
             textBox9.ReadOnly = true;
             textBox9.Size = new Size(66, 30);
             textBox9.TabIndex = 10;
+            textBox9.TextChanged += textBox9_TextChanged;
             // 
             // textBox8
             // 
@@ -260,6 +264,7 @@
             textBox8.ReadOnly = true;
             textBox8.Size = new Size(175, 30);
             textBox8.TabIndex = 9;
+            textBox8.Text = "0";
             // 
             // textBox7
             // 
@@ -267,6 +272,7 @@
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(175, 30);
             textBox7.TabIndex = 8;
+            textBox7.Text = "0";
             textBox7.TextChanged += textBox7_TextChanged;
             textBox7.KeyPress += textBox7_KeyPress;
             // 
@@ -513,6 +519,7 @@
             radioButton3.TabStop = true;
             radioButton3.Text = "Cash";
             radioButton3.UseVisualStyleBackColor = true;
+            radioButton3.CheckedChanged += radioButton3_CheckedChanged;
             // 
             // groupBox6
             // 
@@ -555,11 +562,21 @@
             button2.Text = "SAVE";
             button2.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(46, 695);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 13;
+            label1.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(867, 754);
+            Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(groupBox6);
@@ -583,6 +600,7 @@
             groupBox6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -636,5 +654,6 @@
         private ComboBox comboBox1;
         private TextBox textBox3;
         private RadioButton radioButton5;
+        private Label label1;
     }
 }
