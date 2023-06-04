@@ -115,3 +115,36 @@ select max(m.studmarks),s.studname from tablemarks m join tablestudent s on m.st
 --to add a column 
 alter table tablestudent add rollno int
 
+--index syntax
+
+create index searchStudent on tablestudent(studname)
+
+select studname from tablestudent where studname = 'Ravi'
+
+exec sp_help searchStudent
+
+--how to show current date time
+
+select getdate();
+select CURRENT_TIMESTAMP
+
+--what is substring
+--substring function is used to extract substring from a given string
+
+SELECT SUBSTRING('Hello world',7,5);
+
+select SUBSTRING('Ravi',2,3) from tablestudent;
+
+--delete
+delete from tablestudent
+delete from tablestudent where studname = 'Ravi'
+
+--drop
+drop table tablestudent
+drop database student
+
+
+
+
+
+
