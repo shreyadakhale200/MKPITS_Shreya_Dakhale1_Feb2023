@@ -367,6 +367,7 @@ html, body{ height: 100%; }
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 .fixed-menu .navbar-brand{
 	padding: 10px 0 10px;
 }
@@ -388,6 +389,8 @@ html, body{ height: 100%; }
     background-attachment: fixed;
     background-size: cover;
     min-height: 100%;
+    padding-top: 6em;
+    padding-bottom: 80em;
 }
 
 .banner .container, .banner .banner-static, .banner .col-lg-12 {
@@ -406,15 +409,15 @@ html, body{ height: 100%; }
     color: black;
 }
 .banner-text h1 {
-	font-family: 'nautilus_pompiliusregular';
+    font-family: 'nautilus_pompiliusregular';
     letter-spacing: 2.7px;
     position: relative;
     display: inline-block;
-	font-size: 74px;
+    font-size: 74px;
     line-height: 100px;
-	color:#fff;
-	padding-bottom: 0px;
-	padding-top:100px;
+    color: #ffffffbd;
+    padding-bottom: 0px;
+    padding-top: 100px;
 }
 
 .banner-text h2 {
@@ -433,21 +436,22 @@ html, body{ height: 100%; }
 	margin:0px;
 }
 
-.book-btn a{
-	/*background:#e75b1e;*/
-	color:#fff;
-	min-width: 219px;
+.book-btn a {
+    color: #fff;
+    background-color: #71351f;
     padding: 10.5px 20px;
     display: inline-block;
     text-align: center;
     font-weight: 800;
-	text-transform:uppercase;
-	font-size:18px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 3px solid #8d5c32;
 }
-.book-btn a:hover{
-	border:3px solid red;
-	background:none;
-}
+
+    .book-btn a:hover {
+        border: 3px solid #71351f;
+        background: none;
+    }
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -591,8 +595,9 @@ html, body{ height: 100%; }
 .pad-top-100{
     padding-top: 90px;
 }
-.pad-bottom-100{
-	padding-bottom: 90px;
+.pad-bottom-100 {
+    padding-bottom: 90px;
+    background-color: #1a718f;
 }
 
 .pad-top-70{
@@ -655,11 +660,11 @@ html, body{ height: 100%; }
 /*------------------------------------------------------------------
     SPECIAL-MENU AREA
 -------------------------------------------------------------------*/
-.special-menu{
-	background:url(../images/special_menu_bg.jpg) no-repeat center;
-	background-attachment:fixed;
-	background-size:cover;
-	position:relative;
+.special-menu {
+    background: url(../images/bro-takes-photos-jUvUDx_cb4s-unsplash.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
 }
 
 .special-menu:before {
@@ -690,7 +695,7 @@ html, body{ height: 100%; }
 #owl-demo .item img{
   display: block;
   width: 100%;
-  height: auto;
+  height: 515px;
 }
 .special-box .owl-theme .owl-controls{
 	margin:0px;
@@ -812,7 +817,7 @@ html, body{ height: 100%; }
 }
 
 .tab-title-menu h2{
-	border-bottom:1px solid #666;
+	border-bottom:none;
 	display: inline-block;
 	padding-top: 10px;
 }
@@ -901,7 +906,7 @@ html, body{ height: 100%; }
 
 .tab-menu .is-active h2{
 	color:#fff;
-	border-bottom: 1px solid #fff;
+	border-bottom:none;
 }
 .tab-menu .is-active p{
 	color:#fff;
@@ -911,11 +916,11 @@ html, body{ height: 100%; }
     TEAM AREA
 -------------------------------------------------------------------*/
 
-.team-main{
-	background:url(../images/team_bg.jpg) no-repeat center;
-	background-attachment:fixed;
-	background-size:cover;
-	position:relative;
+.team-main {
+    background: url(../images/artiom-vallat-zgRKQKHf8v0-unsplash.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
 }
 
 .team-main:before {
@@ -1262,7 +1267,7 @@ html, body{ height: 100%; }
     margin-bottom: 20px;
     padding: 10px 30px 13px 30px;
     border-top: 1px solid #eaeaea;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom:none;
 }
 
 .blog-dit h5{
@@ -1887,7 +1892,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 }
 
 .orange-bg {
-    background: #1ecbe7;
+    background: #d5551e;
 }
 
 .strong-blue-bg{

@@ -8,15 +8,15 @@
                 <div class="banner-static">
                     <div class="banner-text">
                         <div class="banner-cell">
-                            <h1>Wildlife &hearts;  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words=" Animals:Nature:Life" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
-                            <h2>Accidental appearances </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</p>
-                            <div class="book-btn">
-                                <a href="#reservation" class="table-btn hvr-underline-from-center">Book my Table</a>
-                            </div>
-                            <a href="#about">
+                           <h1>Wildlife &hearts;  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words=" Animals:Nature:Life" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <%--<h2 style="color:#be806d;">Discover Nature </h2>--%>
+                            <p>"The real wealth of the Nation lies in the resources of the earth - soil, water, forests, minerals, and wildlife." <br /> - Rachel Carson.</p>
+                            <%--<div class="book-btn">
+                                <a href="#reservation" class="table-btn hvr-underline-from-center" style="background-color:#71351f;">Book my Table</a>
+                            </div>--%>
+                           <%-- <a href="#about">
                                 <div class="mouse"></div>
-                            </a>
+                            </a>--%>
                         </div>
                         <!-- end banner-cell -->
                     </div>
@@ -29,13 +29,13 @@
         <!-- end container -->
     </div>
     <!-- end banner -->
-
     <div id="about" class="about-main pad-top-100 pad-bottom-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title"> About Us </h2>
+                        
                         <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
 
@@ -48,8 +48,8 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <div class="about-images">
-                            <img class="about-main" src="images/about-main.jpg" alt="About Main Image">
-                            <img class="about-inset" src="images/about-inset.jpg" alt="About Inset Image">
+                            <img class="about-main" src="images/josh-miller-AEZEx7encQs-unsplash.jpg" alt="About Main Image">
+                            <img class="about-inset" src="images/intricate-explorer-GK3_2LGSxOY-unsplash.jpg" alt="About Inset Image">
                         </div>
                     </div>
                 </div>
@@ -66,6 +66,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title color-white text-center"> Today's Special </h2>
+                        
                         <h5 class="title-caption text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia,nostrud exercitation ullamco. </h5>
                     </div>
                     <div class="special-box">
@@ -74,70 +75,70 @@
                                 <a href="#" class="item-hover">
                                     <div class="item-info">
                                         <div class="headline">
-                                            SALMON STEAK
+                                            PUPPIES
                                             <div class="line"></div>
                                             <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
                                         </div>
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
+                                    <img src="images/meghna-r-d0Hl1VxpdSI-unsplash.jpg" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
                                 <a href="#" class="item-hover">
                                     <div class="item-info">
                                         <div class="headline">
-                                            ITALIAN PIZZA
+                                            RACOON
                                             <div class="line"></div>
                                             <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
                                         </div>
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
+                                    <img src="images/toan-chu-VEzDhGMlyb8-unsplash.jpg" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
                                 <a href="#" class="item-hover">
                                     <div class="item-info">
                                         <div class="headline">
-                                            VEG. ROLL
+                                            DEER
                                             <div class="line"></div>
                                             <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
                                         </div>
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-3.jpg" alt="sp-menu">
+                                    <img src="images/timeo-buehrer-fCv8BXjPcOA-unsplash.jpg" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
                                 <a href="#" class="item-hover">
                                     <div class="item-info">
                                         <div class="headline">
-                                            SALMON STEAK
+                                                BIRD
                                             <div class="line"></div>
                                             <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
                                         </div>
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
+                                    <img src="images/jeremy-hynes-q_bx5FSjSqc-unsplash.jpg" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
                                 <a href="#" class="item-hover">
                                     <div class="item-info">
                                         <div class="headline">
-                                            VEG. ROLL
+                                            KOALA
                                             <div class="line"></div>
                                             <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
                                         </div>
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
+                                    <img src="images/lars-van-poucke-kS7pQ_Ad87g-unsplash.jpg" alt="sp-menu">
                                 </div>
                             </div>
                         </div>
@@ -157,39 +158,41 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title text-center">
-						Our Menu 	
+                        <h2 class="block-title text-center" style="color:white;">
+						Wildlife's Essence	
 					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                        <p class="title-caption text-center" style="color:white;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                     </div>
                     <div class="tab-menu">
                         <div class="slider slider-nav">
                             <div class="tab-title-menu">
-                                <h2>STARTERS</h2>
-                                <p> <i class="flaticon-canape"></i> </p>
+                                <h2>LAND</h2>
+                                <p> <img src="/images/cottage.png" alt="Alternate Text" class="cottage"/> </p>
+                                <%--<p> <i class="flaticon-canape"></i> </p>--%>
                             </div>
                             <div class="tab-title-menu">
-                                <h2>MAIN DISHES</h2>
-                                <p> <i class="flaticon-dinner"></i> </p>
+                                <h2>SEA</h2>
+                                <p><img src="/images/waves.png" alt="Alternate Text" class="cottage"/></p>
                             </div>
                             <div class="tab-title-menu">
-                                <h2>DESERTS</h2>
-                                <p> <i class="flaticon-desert"></i> </p>
+                                <h2>AIR</h2>
+                                <p><img src="/images/air-hot-balloon.png" alt="Alternate Text" class="cottage"/> </p>
                             </div>
                             <div class="tab-title-menu">
-                                <h2>DRINKS</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
+                                <h2>FACTS</h2>
+                                <p>
+                                    <img src="/images/did-you-know.png" alt="Alternate Text" class="cottage" /></p>
                             </div>
                         </div>
                         <div class="slider slider-single">
                             <div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                                     <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-01.jpg" alt="" class="img-responsive">
+                                        <img src="images/chocolatefrog.png" alt="" class="img-responsive">
                                         <div>
-                                            <h3>GARLIC BREAD</h3>
+                                            <h3>CHOCOLATE FROG</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
+                                               In the Peruvian Amazon, herpetologists followed a distinctive frog call to one of the rarest habitats in the forest, the Amazon peatlands. There, researchers dug up a new species of burrowing frog, Synapturanus danta.
                                             </p>
                                         </div>
                                         <span class="offer-price">$8.5</span>
@@ -198,11 +201,11 @@
                                 <!-- end col -->
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                                     <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-02.jpg" alt="" class="img-responsive">
+                                        <img src="images/tarantula.jpeg" alt="" class="img-responsive" id="tarantula">
                                         <div>
-                                            <h3>MIXED SALAD</h3>
+                                            <h3>Tarantula</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
+                                                In Thailand, a well-known wildlife YouTuber, JoCho Sippawat, found a new genus of tarantula and collaborated with scientists to describe the species, Taksinus bambus, nicknamed “bambootula.”
                                             </p>
                                         </div>
                                         <span class="offer-price">$25</span>

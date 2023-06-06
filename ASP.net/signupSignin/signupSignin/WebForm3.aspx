@@ -16,13 +16,18 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <style>
+<style>
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
 font-size: 1rem;
 line-height: 2.15;
 padding-left: .75em;
 padding-right: .75em;
 }
+
+body{
+  background-color: antiquewhite;
+}
+
 .text-uppercase {
   text-transform: uppercase;
   font-size: 3em;
@@ -30,6 +35,14 @@ padding-right: .75em;
 .card-registration .select-arrow {
 top: 13px;
 }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin-top: 11px;
+}
+
 .register {
   width: 41em;
   float: right;
@@ -64,8 +77,6 @@ top: 13px;
 
 </head>
 <body>
-
-
   <form id="form1" runat="server">
   <section class="h-100 bg-dark">
   <div class="container py-5 h-100">
@@ -76,10 +87,11 @@ top: 13px;
             <div class="col-xl-6 d-none d-xl-block">
               <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
                 alt="Sample photo" class="img-fluid"
-                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;width:50%;float:left;height: 964px;" />
+                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;width:50%;float:left;height: 985px;" />
             </div>
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
+
     <span class="register">
                 <h3 class="mb-5 text-uppercase">Student registration form</h3>
 

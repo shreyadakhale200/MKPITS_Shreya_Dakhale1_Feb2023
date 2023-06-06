@@ -10,8 +10,8 @@
 .typer{
 	color: #1ecbe7;
 }
-.banner-text h2{
-	color: #1E69B8
+.banner-text h2 {
+	color: #be806d
 }
 .book-btn a{
 	background: #1E69B8;
@@ -23,8 +23,8 @@
 .hvr-underline-from-center::before{
 	background: #66afff;
 }
-.block-title{
-	color: #1E69B8;
+.block-title {
+	color: #cf4ca8;
 }
 .item-type-zoom .item-hover:hover::before{
 	background: rgba(30, 105, 184, 0.5);
