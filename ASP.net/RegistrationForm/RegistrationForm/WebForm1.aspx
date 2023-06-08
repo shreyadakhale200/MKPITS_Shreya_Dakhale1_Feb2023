@@ -13,7 +13,6 @@
         .py-5 {
             padding-top: 1rem !important;
             padding-bottom: 0rem !important;
-            padding-right:;
             width: 55em;
             margin-left: -12em;
             margin-top: -4em;
