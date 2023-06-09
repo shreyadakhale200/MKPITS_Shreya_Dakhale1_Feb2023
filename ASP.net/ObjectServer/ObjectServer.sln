@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectServer", "ObjectServer\ObjectServer.csproj", "{04A42713-C591-4FC1-8633-5C5E7833E011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04A42713-C591-4FC1-8633-5C5E7833E011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A42713-C591-4FC1-8633-5C5E7833E011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A42713-C591-4FC1-8633-5C5E7833E011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A42713-C591-4FC1-8633-5C5E7833E011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30BCF13D-FE39-4181-9315-1E110732F468}
+	EndGlobalSection
+EndGlobal
