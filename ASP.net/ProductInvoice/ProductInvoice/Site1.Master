@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ProductInvoice.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            font-size: xx-large;
+        }
+        .auto-style3 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style3">
+            <div class="auto-style3">
+                <strong><span class="auto-style2">Menu<br />
+                </span>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ItemEntry.aspx">Item Entry</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Department.aspx">Department</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/VendorMaster.aspx">Vendor Master</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Transaction.aspx">Transaction</asp:HyperLink>
+                <br />
+                </strong>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
