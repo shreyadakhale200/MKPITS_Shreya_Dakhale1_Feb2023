@@ -92,14 +92,26 @@ namespace CRUDtableEmployee
                 command.Parameters.AddWithValue("@gender", "Female");
             }
             command.Parameters.AddWithValue("@email", TextBox3.Text);
-            command.Parameters.AddWithValue("@mobilenumber", TextBox4.Text);
+            command.Parameters.AddWithValue("@mobilenumber", Convert.ToInt64(TextBox4.Text));
             command.Parameters.AddWithValue("@city", TextBox5.Text);
             command.Parameters.AddWithValue("@dob", Calendar1.SelectedDate);
-            command.Parameters.AddWithValue("@Emolyeeid",TextBox1.Text);
+            command.Parameters.AddWithValue("@Employeeid",Convert.ToInt32(TextBox1.Text));
             con.Open() ;
             command.ExecuteNonQuery();
             con.Close();
             Label1.Text = "Successfully Updated";
+            loadpage();
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            query = "delete from Employee where Employeeid = @Employeeid";
+            SqlCommand command = new SqlCommand(query,con);
+            command.Parameters.AddWithValue("@Employeeid", Convert.ToInt32(TextBox1.Text));
+            con.Open();
+            command.ExecuteNonQuery();
+            con.Close();
+            Label1.Text = "Deleted Successfully";
             loadpage();
         }
     }

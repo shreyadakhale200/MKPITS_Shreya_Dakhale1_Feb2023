@@ -49,6 +49,9 @@
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Insert" />
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Update" />
+            &nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Delete" />
+&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <br />
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>

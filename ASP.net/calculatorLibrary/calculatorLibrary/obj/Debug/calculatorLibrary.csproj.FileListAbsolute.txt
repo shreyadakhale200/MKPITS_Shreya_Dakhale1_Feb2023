@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\ASP.net\calculatorLibrary\calculatorLibrary\bin\Debug\calculatorLibrary.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\ASP.net\calculatorLibrary\calculatorLibrary\bin\Debug\calculatorLibrary.pdb
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\ASP.net\calculatorLibrary\calculatorLibrary\obj\Debug\calculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\ASP.net\calculatorLibrary\calculatorLibrary\obj\Debug\calculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\ASP.net\calculatorLibrary\calculatorLibrary\obj\Debug\calculatorLibrary.dll
+C:\Users\HP\Desktop\DotNet\MKPITS_Shreya_Dakhale1_Feb2023\ASP.net\calculatorLibrary\calculatorLibrary\obj\Debug\calculatorLibrary.pdb
