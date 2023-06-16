@@ -22,7 +22,7 @@
 &nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button4" runat="server" Enabled="False" OnClick="Button4_Click" Text="Delete" />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Serach" />
+        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Search" />
 </p>
 <p>
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>

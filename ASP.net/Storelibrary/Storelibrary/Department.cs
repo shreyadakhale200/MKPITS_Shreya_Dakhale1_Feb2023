@@ -45,11 +45,103 @@ namespace Storelibrary
             }
             catch (Exception ex)
             {
-                res = ex.Message;
+                res = ex.ToString();
             }
             finally { con.Close(); }
             return res;
+
+           
         }
+
+        public static string updateDepartment(string department_name,int department_id)
+        {
+            query = "select count(*) from Department_mast where department_id=@department_id";
+            command = new SqlCommand(query, con);
+            command.Parameters.AddWithValue("@department_id", department_id);
+            con.Open();
+            int cnt = Convert.ToInt32(command.ExecuteScalar());
+            con.Close();
+
+            if (cnt > 0)
+            {
+
+
+                try
+                {
+                    query = "update  Department_mast set department_name=@department_name where department_id=@department_id";
+                    command = new SqlCommand(query, con);
+                    command.Parameters.AddWithValue("@department_name", department_name);
+                    command.Parameters.AddWithValue("@department_id", department_id);
+                    con.Open();
+                    command.ExecuteNonQuery();
+
+                    res = "record updated in department master successfully";
+                }
+                catch (Exception ex)
+                {
+                    res = ex.ToString();
+                }
+                finally
+                {
+                    con.Close();
+
+                }
+
+            }
+            else
+            {
+                res = "no record exist ";
+            }
+            return res;
+
+        }
+
+        public static string deleteDepartment(int department_id)
+        {
+
+            query = "select count(*) from Department_mast where department_id = @department_id";
+            command = new SqlCommand(query, con);
+            command.Parameters.AddWithValue("@department_id", department_id);
+            con.Open();
+            int cnt = Convert.ToInt32(command.ExecuteScalar());
+            con.Close();
+
+            if (cnt > 0)
+            {
+
+                try
+                {
+                    query = "delete from Department_mast where department_id = @department_id";
+                    SqlCommand command = new SqlCommand(query, con);
+                    command.Parameters.AddWithValue("@department_id", department_id);
+                    con.Open();
+                    command.ExecuteNonQuery();
+                    res = "deleted successfully";
+                }
+                catch (Exception ex)
+                {
+                    res = ex.Message;
+                }
+                finally { con.Close(); }
+            }
+            else
+            {
+                res = "no record exist";
+            }
+            return res;
+        }
+
+        public static DataSet SearchDepartment(int department_id)
+        {
+            query = "select * from Department_mast where department_id = @department_id";
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(query, con);
+            con.Open();
+            da.SelectCommand.Parameters.AddWithValue("@department_id",department_id);
+            da.Fill(ds, "Department_mast");
+            return ds;
+        }
+
     }
 
 }

@@ -22,6 +22,8 @@
                 <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm1.aspx">Vendor Details</asp:HyperLink>
 &nbsp;&nbsp;&nbsp;
                 <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Department.aspx">Department Details</asp:HyperLink>
+                &nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/ItemMaster.aspx">Item Details</asp:HyperLink>
                 <br />
                 <br />
             </div>

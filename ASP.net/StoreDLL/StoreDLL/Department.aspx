@@ -24,6 +24,14 @@
 </p>
 <p>
     <asp:Button ID="Button1" runat="server" Text="Insert" OnClick="Button1_Click" />
+&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Modify" />
+&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button3" runat="server" Enabled="False" OnClick="Button3_Click" Text="Update" />
+&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button4" runat="server" Enabled="False" OnClick="Button4_Click" Text="Delete" />
+&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button5" runat="server" Text="Search" OnClick="Button5_Click" />
 </p>
 <p>
     <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
