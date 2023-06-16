@@ -15,5 +15,25 @@ select * from Customer
 union all
 select * from Customer1
 
+select * from Customer
+union 
+select * from Customer1
 
+--------------------------
+--ALTER
 
+--ADD A COLUMN
+alter table Customer
+add age int
+
+--MODIFY A DATATYPE
+alter table Customer
+alter column id decimal(10,2)
+
+--ADDING A CONSTRAINT
+alter table Customer
+add constraint prcustomer primary key(id)
+
+--DROPPING A CONSTRAINT
+alter table Customer
+drop column name

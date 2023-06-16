@@ -73,17 +73,17 @@
             radioButton4 = new RadioButton();
             radioButton3 = new RadioButton();
             groupBox6 = new GroupBox();
-            dataGridView1 = new DataGridView();
             button1 = new Button();
             button2 = new Button();
             label1 = new Label();
+            dataGridView2 = new DataGridView();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox5.SuspendLayout();
             groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // listBox1
@@ -383,6 +383,8 @@
             textBox16.Name = "textBox16";
             textBox16.Size = new Size(175, 30);
             textBox16.TabIndex = 13;
+            textBox16.TextChanged += textBox16_TextChanged;
+            textBox16.Leave += textBox16_Leave;
             // 
             // textBox15
             // 
@@ -508,6 +510,7 @@
             radioButton4.TabStop = true;
             radioButton4.Text = "EMI";
             radioButton4.UseVisualStyleBackColor = true;
+            radioButton4.CheckedChanged += radioButton4_CheckedChanged;
             // 
             // radioButton3
             // 
@@ -523,7 +526,7 @@
             // 
             // groupBox6
             // 
-            groupBox6.Controls.Add(dataGridView1);
+            groupBox6.Controls.Add(dataGridView2);
             groupBox6.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox6.Location = new Point(21, 498);
             groupBox6.Name = "groupBox6";
@@ -531,16 +534,6 @@
             groupBox6.TabIndex = 10;
             groupBox6.TabStop = false;
             groupBox6.Text = "Summary";
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 33);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(405, 133);
-            dataGridView1.TabIndex = 0;
             // 
             // button1
             // 
@@ -571,6 +564,17 @@
             label1.TabIndex = 13;
             label1.Text = "label1";
             // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(6, 33);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.RowTemplate.Height = 29;
+            dataGridView2.Size = new Size(398, 133);
+            dataGridView2.TabIndex = 1;
+            dataGridView2.CellContentClick += dataGridView2_CellContentClick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -598,7 +602,7 @@
             groupBox5.ResumeLayout(false);
             groupBox5.PerformLayout();
             groupBox6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -648,12 +652,12 @@
         private RadioButton radioButton4;
         private RadioButton radioButton3;
         private GroupBox groupBox6;
-        private DataGridView dataGridView1;
         private Button button1;
         private Button button2;
         private ComboBox comboBox1;
         private TextBox textBox3;
         private RadioButton radioButton5;
         private Label label1;
+        private DataGridView dataGridView2;
     }
 }

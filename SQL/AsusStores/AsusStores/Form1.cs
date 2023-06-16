@@ -100,16 +100,59 @@ namespace AsusStores
                 double PaidAmount = Convert.ToDouble(textBox10.Text) + Convert.ToDouble(textBox8.Text);
                 textBox16.Text = PaidAmount.ToString();
                 textBox16.Enabled = false;
+                textBox17.Text = textBox16.Text;
             }
             else if (radioButton4.Checked)
             {
                 textBox16.Enabled = true;
                 textBox16.Text = string.Empty;
-                double emi = Convert.ToDouble(textBox6.Text) - Convert.ToDouble(textBox16.Text);
-                label1.Text = emi.ToString();
-                }
             }
         }
 
-        
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            //netamount = Convert.ToDouble(textBox8.Text) - Convert.ToDouble(textBox16.Text);
+            //textBox17.Text = netamount.ToString();
+        }
+
+        double netamount;
+        private void textBox16_TextChanged(object sender, EventArgs e)
+        {
+            //if (textBox16.Text == "")
+            //{
+            //    netamount = 0;
+            //    netamount = Convert.ToDouble(textBox8.Text) - Convert.ToDouble(textBox16.Text);
+            //    textBox17.Text = netamount.ToString();
+            //}
+            //else
+            //{
+            //    netamount = Convert.ToDouble(textBox8.Text) - Convert.ToDouble(textBox16.Text);
+            //    textBox17.Text = netamount.ToString();
+            //}
+            //8-16 = 17
+        }
+
+        private void textBox16_Leave(object sender, EventArgs e)
+        {
+            if (textBox16.Text == "")
+            {
+                netamount = 0;
+                netamount = Convert.ToDouble(textBox8.Text) - Convert.ToDouble(textBox16.Text);
+                textBox17.Text = netamount.ToString();
+            }
+            else
+            {
+                netamount = Convert.ToDouble(textBox8.Text) - Convert.ToDouble(textBox16.Text);
+                textBox17.Text = netamount.ToString();
+            }
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataSet ds = new DataSet();
+            DataTable dt = new DataTable();
+        }
     }
+
+
+}
