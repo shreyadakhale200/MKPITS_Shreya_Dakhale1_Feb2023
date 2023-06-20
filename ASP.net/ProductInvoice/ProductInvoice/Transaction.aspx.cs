@@ -6,6 +6,11 @@ using System.Reflection.Emit;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using System.Xml.Linq;
+using System.Collections;
+using System.Drawing;
+using System.Data.SqlClient;
 
 namespace ProductInvoice
 {
@@ -15,7 +20,8 @@ namespace ProductInvoice
         {
 
         }
-
+        SqlDataAdapter da;
+        string query = null;
 
         protected void RadioButton1_CheckedChanged1(object sender, EventArgs e)
         {
@@ -131,6 +137,8 @@ namespace ProductInvoice
                     command.ExecuteNonQuery();
                     Label1.Text = "item purchased from department successfully";
 
+                    loadpage();
+                    
                 }
                 catch (Exception ee)
                 {
@@ -139,6 +147,42 @@ namespace ProductInvoice
                 finally { con.Close(); }
 
             }
+        }
+
+        public void loadpage()
+        {
+            DataSet ds = new DataSet();
+            DataTable dt = new DataTable("Transaction_Process");
+            DataRow dr;
+            dt.Columns.Add(new DataColumn("TransID", typeof(int)));
+            dt.Columns.Add(new DataColumn("ItemID", typeof(int)));
+            dt.Columns.Add(new DataColumn("TransType", typeof(int)));
+            dt.Columns.Add(new DataColumn("TransQty", typeof(int)));
+            dt.Columns.Add(new DataColumn("TransDate", typeof(DateTime)));
+
+            dr = dt.NewRow();
+            dr[0] = 1;
+            dr[1] = DropDownList6.SelectedValue;
+            if (RadioButton1.Checked)
+            {
+                dr[2] = 1;
+            }
+            else if (RadioButton2.Checked)
+            {
+                dr[2] = 2;
+            }
+            dr[3] = TextBox9.Text;
+            dr[4] = TextBox8.Text;
+            dt.Rows.Add(dr);
+            ds.Tables.Add(dt);
+
+            GridView1.DataSource = ds.Tables["Transaction_Process"].DefaultView;
+            GridView1.DataBind();
+
+        }
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
