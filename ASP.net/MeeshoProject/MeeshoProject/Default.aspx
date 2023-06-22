@@ -61,12 +61,12 @@
  &nbsp;<asp:DataList ID="DataList1" runat="server" OnSelectedIndexChanged="DataList1_SelectedIndexChanged" CssClass="noBorderStyle" RepeatColumns="4" Width="100%" RepeatDirection="Horizontal" EnableTheming="True">
 <ItemTemplate>
 <table cellpadding="2" cellspacing="4" border="1" style="width: 300px; height: 100px;
-border:3px solid black">
+border:3px solid white">
 <tr>
 <td align="center">
-    <asp:HyperLink ID="myLink" runat="server" NavigateUrl='<%# "Contact.aspx?id=" + Eval("prodimage") %>'>
-<asp:Image ID="Image1" ImageUrl='<%# Bind("prodimage", "~/images/{0}") %>' runat="server"  Height="380px" Width="320px" ImageAlign="AbsMiddle" EnableTheming="true" />
-        </asp:HyperLink>
+<a href='<%# Eval("prodid","productdetails.aspx?prodid={0}") %>'>
+    <asp:Image ID="Image1" ImageUrl='<%# Bind("prodimage", "~/images/{0}") %>' runat="server"  Height="380px" Width="320px" ImageAlign="AbsMiddle" EnableTheming="true" />
+</a>
 
 </td>
 </tr>

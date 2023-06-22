@@ -14,7 +14,15 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <style>
+        .meeshoHead 
+        {
+          margin-left: 3em;
+          font-size: 2em;
+          color: purple;
+          font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -36,7 +44,7 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
+        <div class="meeshoHead">Meesho</div>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" runat="server" href="~/">Meesho</a>
@@ -47,7 +55,21 @@
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
+                        <%--<li class="nav-item"><a class="nav-link" runat="server" href="~/About">Women Ethnic</a></li>--%>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Women Ethnic</a></li>
+                        
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Women Ethnic
+                        </a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Contact.aspx">Link 1</a>
+                        <a class="dropdown-item" href="Default.aspx">Link 2</a>
+                        <a class="dropdown-item" href="About.aspx">Link 3</a>
+                        </div>
+                        </li>
+
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Women Western</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Men</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Kids</a></li>

@@ -85,6 +85,7 @@ namespace DrivenITproject
         {
             try
             {
+
                 query = "update Transactions set itemid = @itemid,transtype = @transtype,transqty = @transqty,transdate = @transdate where transid = @transid";
                 cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@itemid", DropDownList1.SelectedValue);
@@ -118,13 +119,24 @@ namespace DrivenITproject
                 if (transt == "R")
                     bal = bal + updateqty;
 
-                //update balqty from ItemMaster
-                query = "update ItemMaster set balqty = @balqty where itemid = @itemid";
-                cmd = new SqlCommand(query, con);
-                cmd.Parameters.AddWithValue("@balqty", bal);
-                cmd.Parameters.AddWithValue("@itemid", DropDownList1.SelectedValue);
-                cmd.ExecuteNonQuery();
-                Label1.Text = "updated successfully";
+                if (bal < 0)
+                {
+                    Label1.Text = "Stock is unavailable";
+                    if(IsPostBack)
+                    {
+                        oldqty =  (Convert.ToInt32(TextBox1.Text) * 0) + oldqty;
+                    }
+                }
+                else
+                {
+                    //update balqty from ItemMaster
+                    query = "update ItemMaster set balqty = @balqty where itemid = @itemid";
+                    cmd = new SqlCommand(query, con);
+                    cmd.Parameters.AddWithValue("@balqty", bal);
+                    cmd.Parameters.AddWithValue("@itemid", DropDownList1.SelectedValue);
+                    cmd.ExecuteNonQuery();
+                    Label1.Text = "updated successfully";
+                }
             }
             catch(Exception ex)
             {
