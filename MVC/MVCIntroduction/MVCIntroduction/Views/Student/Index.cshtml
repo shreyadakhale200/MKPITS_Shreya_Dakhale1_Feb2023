@@ -1,0 +1,204 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome to student page</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<hr />
+
+@{
+    string Username = "Prachi";
+    int subject1 = 60;
+    int subject2 = 70;
+    int subject3 = 89;
+    int total = subject1 + subject2 + subject3;
+    float per = (total / 300.0f) * 100.0f;
+}
+
+Name = @Username    <br />
+Total = @total      <br />
+Percentage  = @per  <br />
+
+@*to escape a @ use two @@*@
+@@Username
+
+@*Implicit Razor Expressions*@
+<h3>Implicit Razor Expressions</h3>
+<p>Days in Month - @DateTime.DaysInMonth(2023,6)</p>
+<p>Current Date and Time - @DateTime.Now</p>
+<p>Leap year or not - @DateTime.IsLeapYear(2016)</p>
+
+@*Explicit Razor Expressions*@
+@*Explicit Razor expression consists of @ (at) character with balanced parenthesis.
+In the following example, expression is enclosed with parenthesis to execute safely.
+It will throw an error if it is not enclosed with parenthesis.*@
+
+<h3>Explicit Razor Expressions</h3>
+<p>2 + 5 = @(2+5)</p>
+<p>5 - 2 = @(5-2)</p>
+<p>5 * 2 = @(5*2)</p>
+<p>8 / 2 = @(8/2)</p>
+
+@{
+    var person = new Person("Shreya", 21);
+}
+
+Without the explicit expression, <p>Age@joe.Age</p> is treated as an email address, and <p>Age@joe.
+Age</p> is rendered. When written as an explicit expression, <p>Age33</p> is rendered.
+
+
+
+@*With @*@
+@("<span>Hello World</span>")
+<br />
+
+@*Without @*@
+<h1>Hello World</h1>
+
+@*Using Raw*@
+@Html.Raw("<h1>Hello World</h1>")
+
+@*---------------------------------------------------------*@
+
+@*Saving a quote in a variable and printing it*@
+@{
+    var quote = "The future depends on what you do today. -Mahatma Gandhi";
+}
+
+@*Printing the quote*@
+@quote
+
+<br />
+
+@*---------------------------------------------------------*@
+
+@*Saving a boolean value in the Csharp variable and printing it in the sentence*@
+@{
+    var Csharp = true;
+    <p>Now in HTML was in @Csharp</p>
+}
+
+@*---------------------------------------------------------*@
+
+@{
+    //var people = new Person("Mahima", 21);
+    //new Person("Rupali", 22);
+}
+
+@*Printing of array using for loop*@
+
+@*FOR LOOP*@
+@{
+string[] people = {"Mahima","Rupali","Mayuri","Akanksha"};
+}
+
+@for(var i = 0;i<people.Length;i++)
+{
+    var numberOfPeople = people[i];
+    <hr />
+    <text>Number of People : @numberOfPeople</text>
+}
+
+@*---------------------------------------------------------*@
+
+<br />
+<hr />
+@*Whether the number is even or odd*@
+
+@{
+    var number = 500;
+}
+@if(number % 2 == 0)
+{
+    @number <span> is even</span>
+}
+else
+{
+    @number <span> is odd</span>
+}
+
+@*---------------------------------------------------------*@
+<br />
+<hr />
+@*Whether the username and password are correct using if else*@
+
+@{
+    var username = "mahima";
+    var password = "MahimaIsGreat";
+}
+@if(username == "mahima" && password == "MahimaIsGreat")
+{
+    <p>Login successfull</p>
+}
+else
+{
+    <p>Username and Password is invalid</p>
+}
+
+@*---------------------------------------------------------*@
+<br />
+<hr />
+@* Whether the candidate is mino or not*@
+
+@{
+    var age = 12;
+}
+
+@if(age >= 18)
+{
+    <text>Candidate is not minor </text>
+}
+else
+{
+    <text>Candidate is minor</text>
+}
+
+@*--------------------------------------------------------*@
+<br />
+<hr />
+@*Whether the student failed the exam or passed it*@
+
+@{
+    var percent = 34;
+}
+@if(percent < 100 && percent > 75)
+{
+    <text>Student passed with a distinction</text>
+}
+else if(percent > 60 && percent < 75)
+{
+    <text>Student passed in the first place</text>
+}
+else
+{
+    <text>Student Failed</text>
+}
+
+@*-------------------------------------------------------*@
+<br />
+<hr />
+@*Whether a candidate is minor, adult and old*@
+
+@{
+    var Age = 78;
+}
+
+@if(Age == 18)
+{
+    <text>Person is not a minor, he is eligible to vote</text>
+}
+else if(Age < 50)
+{
+    <text>Person is an adult</text>
+}
+else
+{
+    <text>Person is of old age</text>
+}
+
+@*-------------------------------------------------------*@
+
+var 
