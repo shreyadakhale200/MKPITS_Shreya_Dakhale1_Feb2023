@@ -8,8 +8,8 @@ namespace MVCIntroduction.Models
         public int age;
         public Person(string Name,int age)
         {
-           name = Name;
-           age = age;
+           this.name = Name;
+           this.age = age;
         }
         //Creating property named name and age
         public string Name { get { return name; } }

@@ -200,5 +200,72 @@ else
 }
 
 @*-------------------------------------------------------*@
+<br />
+<hr />
+@* SWITCH condition Whether the given variable is a month Name or not*@
 
-var 
+@{
+    var monthNumber = 4;
+}
+
+@switch(monthNumber)
+{
+    case 1:
+        <text>January</text>
+        break;
+    case 2:
+        <text>February</text>
+        break;
+    case 3:
+        <text>March</text>
+        break;
+    case 4:
+        <text>April</text>
+        break;
+    default:
+        <text>Some other month</text>
+        break;
+}
+
+@*------------------------------------------------------*@
+<br />
+<hr />
+
+@*Array of Objects which are accessed from class named Person.cs*@
+
+<h1>ARRAY OF OBJECTS</h1>
+@{
+    var human = new Person[]
+    {
+        new Person("Mahima",21),
+        new Person("Rupali",22),
+        new Person("Shreya",22),
+        new Person("Mayuri",23)
+    };
+}
+
+@*FOR LOOP*@
+<br />
+<hr />
+@for(var count = 0;count < human.Length;count++)
+{
+    var p = human[count];
+    <hr />
+    <text>People Names : @p.Name</text><br />
+    <text>People Ages : @p.age</text>
+}
+
+
+@*DOUBT*@
+@*@{
+    ViewBag.Title = "Index";
+}
+<h2>Index</h2>*@
+
+@*----------------------------------------------------*@
+<br />
+<hr />
+@for(var count = 1;count < 5;count++)
+{
+    <text>@count</text><br />
+}
