@@ -16,28 +16,63 @@
         }
 
         .nav-item-Courses {
-            margin: -2em 0em 2em 0em;
+            margin: -31px 0em 2em 0em;
+            font-size: 19px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
         }
 
         .nav-item-About {
             margin: 32px 1em 0em 12px;
-            font-size: 20px;
+            font-size: 19px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
         }
 
         .nav-item-Home {
-            margin: 32px 1em 0em 3px;
+            margin: 32px 1em 0em 26em;
+            font-size: 19px;
             font-size: 20px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .navbar-expand-sm .navbar-nav {
+            flex-direction: row;
+            margin: 3em 0em 2em 2em;
         }
 
         .dropdown-toggle {
             text-decoration: none;
             color: black;
+            font-size: 19px;
         }
 
         a[b-0sxjuuz4as] {
             color: black;
-            font-size: 20px;
+            font-size: 19px;
         }
+
+        .navbar-expand-sm .navbar-nav .nav-link {
+            padding-right: .5rem;
+            padding-left: 0.5rem;
+        }
+
+        .navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 {
+            height: 7em;
+            font-size: 19px;
+        }
+
+        .nav-item-Admission, .nav-item-JobPlacement, .nav-item-Contact {
+            margin: 33px 2em 0em 0em;
+            font-size: 19px;
+            font-size: 19px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        header{
+            position:fixed;
+            padding-top:1em;
+            margin-bottom:3em;
+            margin-right:-2em;
+        }
+
     </style>
 </head>
 <body>
@@ -72,6 +107,15 @@
                                     </div>
                                 </div>
                             </a>
+                        </li>
+                        <li class="nav-item-Admission">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Admission">Admission</a>
+                        </li>
+                        <li class="nav-item-JobPlacement">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="JobPlacement">Job Placement</a>
+                        </li>
+                        <li class="nav-item-Contact">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
                     </ul>
                 </div>

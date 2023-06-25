@@ -9,6 +9,26 @@
       "PackagePath": "staticwebassets\\MKPITS_Logo.png"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\NicePng_tick-mark-png_9251378.png",
+      "PackagePath": "staticwebassets\\NicePng_tick-mark-png_9251378.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\Screenshot 2023-06-25 at 23-01-46 MKP IT Services.png",
+      "PackagePath": "staticwebassets\\Screenshot 2023-06-25 at 23-01-46 MKP IT Services.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\Screenshot 2023-06-25 at 23-15-18 MKP IT Services.png",
+      "PackagePath": "staticwebassets\\Screenshot 2023-06-25 at 23-15-18 MKP IT Services.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\Screenshot 2023-06-25 at 23-18-52 MKP IT Services.png",
+      "PackagePath": "staticwebassets\\Screenshot 2023-06-25 at 23-18-52 MKP IT Services.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\about.jpg",
+      "PackagePath": "staticwebassets\\about.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\alex-mihu-aSg5OS7FbxY-unsplash.jpg",
       "PackagePath": "staticwebassets\\alex-mihu-aSg5OS7FbxY-unsplash.jpg"
     },
@@ -259,6 +279,10 @@
     {
       "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\pexels-kevin-ku-577585.jpg",
       "PackagePath": "staticwebassets\\pexels-kevin-ku-577585.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\DotNet\\MKPITS_Shreya_Dakhale1_Feb2023\\MVC\\Website\\Website\\wwwroot\\tick.jpg",
+      "PackagePath": "staticwebassets\\tick.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Website.Microsoft.AspNetCore.StaticWebAssets.props",
