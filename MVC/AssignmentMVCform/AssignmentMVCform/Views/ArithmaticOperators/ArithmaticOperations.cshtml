@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*3- wap to accept 2no and operator like +, - ,.... and display the result*@
+
+@model AssignmentMVCform.Models.Operators
+@using (Html.BeginForm("ArithmaticOperations", "ArithmaticOperators", FormMethod.Post))
+{
+    <b>Number 1:</b> @Html.TextBoxFor(m => m.number1)
+    <br />
+    <br />
+    <b>Number 2:</b> @Html.TextBoxFor(m => m.number2)
+    <br />
+    <br />
+    <b>Operators:</b> @Html.DropDownListFor(m => m.operator1, new SelectList(new List<string> { "+", "-", "*", "/" }))
+    <br />
+    <br />
+
+    <input type="submit" value="Solve">
+    <br />
+    <br />
+}
+
+Number 1: @ViewBag.number1
+<br />
+Number 2: @ViewBag.number2
+<br />
+Result: @ViewBag.operation

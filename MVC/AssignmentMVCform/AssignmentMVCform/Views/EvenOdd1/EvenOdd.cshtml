@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*1- wap to accept a number and print whether it is odd num or even no*@
+
+@model AssignmentMVCform.Models.EvenOdd
+@using(Html.BeginForm("EvenOdd","EvenOdd1",FormMethod.Post))
+{
+    <b>Number : </b>@Html.TextBoxFor(m => m.number,new{@Value="enter number",style="color:grey;"})<br /><br />
+
+    <input type="submit" value="Even Or Odd"><br /><br />
+}
+
+Number = @ViewBag.number<br />
+Number is an @ViewBag.result

@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@*example to accept 2 no and print addition of 2 no.*@
+
+@model AssignmentMVCform.Models.AdditionModel
+@using(Html.BeginForm("Index","Home",FormMethod.Post))
+{
+    <b>Number 1 : </b> @Html.TextBoxFor(m => m.number1,new{@Value="Enter number 1",style="color:gray;"})<br /><br />
+    <b>Number 2 : </b> @Html.TextBoxFor(m => m.number2,new{@Value="Enter number 2",style="color:gray;"})<br /><br />
+
+    @*<b>Result = number1 + number2</b>*@
+    <input type="submit" value="Calculate"><br /><br />
+}
+
+Number 1 = @ViewBag.number1 <br />
+Number 2 = @ViewBag.number2 <br />
+Result = @ViewBag.result

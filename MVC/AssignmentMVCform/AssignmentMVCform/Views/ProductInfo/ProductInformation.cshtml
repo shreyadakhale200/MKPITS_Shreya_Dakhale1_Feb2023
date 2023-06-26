@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*5-wap to accept productname ,product price , quantity then display total price*@
+@model AssignmentMVCform.Models.Product
+@using(Html.BeginForm("ProductInformation","ProductInfo",FormMethod.Post))
+{
+    <b>Product Name : </b>@Html.TextBoxFor(m => m.ProductName)<br /><br />
+    <b>Product Price : </b>@Html.TextBoxFor(m => m.ProductPrice)<br /><br />
+    <b>Product Quantity : </b>@Html.TextBoxFor(m => m.Quantity)<br /><br />
+    <input type="submit" value="Check">
+}
+Shopping Purchase Dates<br />
+Product Name = @ViewBag.ProductName<br />
+Product Price = @ViewBag.ProductPrice<br />
+Product Quantity = @ViewBag.Quantity<br />
+Total Price = @ViewBag.TotalPrice<br />

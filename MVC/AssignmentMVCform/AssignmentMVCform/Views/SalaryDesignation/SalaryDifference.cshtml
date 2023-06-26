@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*2-wap to accept empname, basic salary and designation and display bonus =10000 for manager , 5000 for clerk and 1000 for peon and 
+also display total salary*@
+
+@*empname, desingation*@
+
+@model AssignmentMVCform.Models.SalaryDiff
+@using (Html.BeginForm("SalaryDifference","SalaryDesignation",FormMethod.Post))
+{
+    <b>Employee Name : </b>@Html.TextBoxFor(m => m.empname,new{@Value="Enter Employee Name",style="color:grey;"})<br /><br />
+    @*<b>Designation : </b>@Html.DropDownListFor(m => m.designation,new{@Value = ("Manager","Clerk","Peon")})<br /><br />*@
+    <b>Designation:</b> @Html.DropDownListFor(m => m.designation, new SelectList(new List<string> { "Manager", "Clerk", "Peon" }))<br /><br />
+    @*<b>Designation : </b>@Html.TextBoxFor(m => m.designation,new{@Value="Enter Designation",style="color:grey;"})<br /><br />*@
+
+    <input type="submit" value="OK">
+}
+
+View Employee Details
+Employee Name is @ViewBag.empname<br />
+Designation of @ViewBag.empname is @ViewBag.designation<br />
+Tota Salary of @ViewBag.empname who is a @ViewBag.designation is = @ViewBag.totalsalary
+
