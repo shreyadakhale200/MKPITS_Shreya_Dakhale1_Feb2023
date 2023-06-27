@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*To insert a model class called ArithmaticOperationModel *@
+@model CheckboxFormMVC.Models.ArithmaticOperationModel
+
+@*Overall, this line of code generates the opening <form> tag in an HTML form,
+with the form data being submitted to the "Arithmatic" action method in the "Home" controller using the HTTP POST method.*@
+@using(Html.BeginForm("Arithmatic","Home",FormMethod.Post))
+{
+    <b>number 1 : </b>@Html.TextBoxFor(m => m.number1)<br /><br />
+    <b>number 2 : </b>@Html.TextBoxFor(m => m.number2)<br /><br />
+
+    @*for inserting operators checkbox*@
+    <b>Add </b>@Html.CheckBoxFor(m => m.Add,true)<br /><br />
+    <b>Subtract </b>@Html.CheckBoxFor(m => m.Subtract,false)<br /><br />
+    <b>Multiply </b>@Html.CheckBoxFor(m => m.Multiply,false)<br /><br />
+
+    <input type="submit" value="Submit"><br /><br />
+}
+
+Calculation Result<br />
+Addition is @ViewBag.Result1<br />
+Subtraction is @ViewBag.Result2<br />
+Multiplication is @ViewBag.Result3
+<br />

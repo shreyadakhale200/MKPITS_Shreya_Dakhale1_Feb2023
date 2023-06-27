@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@model CheckboxFormMVC.Models.CheckboxModel
+@using (Html.BeginForm("Index","Home",FormMethod.Post))
+{
+    @*Loosely Bonded*@
+    @*<b>Tea </b>@Html.CheckBox("Tea",true)<br />
+    <b>Laundary </b>@Html.CheckBox("Laundary",false)<br />
+    <b>Breakfast </b>@Html.CheckBox("Breakfast",true)<br />*@
+    
+    @*Strongly Bonded*@
+    <b>Tea </b>@Html.CheckBoxFor(m => m.Tea,true)<br />
+    <b>Laundary </b>@Html.CheckBoxFor(m => m.Laundary,false)<br />
+    <b>Breakfast </b>@Html.CheckBoxFor(m => m.Breakfast,true)<br />
+
+    <input type="submit" value="Register"><br />
+}
+
+Registration Details<br />
+Tea = @ViewBag.Tea<br />
+Laundary = @ViewBag.Laundary<br />
+Breakfast = @ViewBag.Breakfast<br />

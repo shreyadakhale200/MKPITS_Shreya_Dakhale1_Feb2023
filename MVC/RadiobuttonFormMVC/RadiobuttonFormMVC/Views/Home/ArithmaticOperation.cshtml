@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model RadiobuttonFormMVC.Models.ArithmaticOperationsModel
+@using (Html.BeginForm("ArithmaticOperation","Home",FormMethod.Post))
+{
+    <b>Number 1 </b> @Html.TextBoxFor(m => m.number1)<br /><br />
+    <b>Number 2 </b> @Html.TextBoxFor(m => m.number2)<br /><br />
+
+    <b>Add </b>@Html.RadioButtonFor(m => m.Operator,"Add")<br />
+    <b>Subtract </b>@Html.RadioButtonFor(m => m.Operator,"Subtract")<br />
+    <b>Multiply </b>@Html.RadioButtonFor(m => m.Operator,"Multiply")<br /><br />
+
+    <input type="submit" value="Check"><br /><br />
+
+}
+
+Result = @ViewBag.Calculate

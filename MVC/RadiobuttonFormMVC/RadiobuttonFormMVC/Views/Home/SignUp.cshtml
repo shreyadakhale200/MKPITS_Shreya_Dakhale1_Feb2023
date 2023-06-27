@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model RadiobuttonFormMVC.Models.SignupModel
+@using(Html.BeginForm("SignUp","Home",FormMethod.Post))
+{
+    <b>Username </b>@Html.TextBoxFor(m => m.username)<br /><br />
+    <b>Password </b>@Html.PasswordFor(m => m.password)<br /><br />
+    <b>Email </b>@Html.TextBoxFor(m => m.email)<br /><br />
+
+    //Radiobutton
+    <b>Female </b>@Html.RadioButtonFor(m => m.gender,"Female")
+    <b>Male </b>@Html.RadioButtonFor(m => m.gender,"Male")<br />
+
+    //Checkbox
+    <b>Dotnet </b>@Html.CheckBoxFor(m => m.subject1,true)
+    <b>Java </b>@Html.CheckBoxFor(m => m.subject2,false)<br/><br/>
+
+    <input type ="submit" value="check"><br /><br />
+}
+
+Student Details<br />
+Username : @ViewBag.username<br />
+Password : @ViewBag.password<br />
+Email : @ViewBag.email<br />
+Gender : @ViewBag.Check<br />
+Subject : @ViewBag.subject1<br />
+Subject : @ViewBag.subject2<br />

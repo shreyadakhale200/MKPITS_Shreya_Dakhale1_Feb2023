@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model CheckboxFormMVC.Models.EmployeeSalaryModel
+@using(Html.BeginForm("EmployeeSal","Home",FormMethod.Post))
+{
+    <b>Employee Name : </b>@Html.TextBoxFor(m => m.empname)<br /><br />
+    <b>Basic Salary : </b>@Html.TextBoxFor(m => m.basicsalary)<br /><br />
+
+    <b>HRA </b>@Html.CheckBoxFor(m => m.hra,true)
+    <b>DA </b>@Html.CheckBoxFor(m => m.da,false)
+    <b>TA </b>@Html.CheckBoxFor(m => m.ta,false)
+
+    <br />
+    <br />
+    <input type="submit" value="Check"><br /><br />
+}
+
+Salary Details <br />
+HRA = @ViewBag.hra<br />
+TA = @ViewBag.ta<br />
+DA = @ViewBag.da<br />
+Total = @ViewBag.total

@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@model RadiobuttonFormMVC.Models.RadioButtonModel
+@using(Html.BeginForm("Index","Home",FormMethod.Post))
+{
+    <b>Tea</b>  @Html.RadioButtonFor(m => m.category,"Tea")<br />
+    <b>Laundary</b>  @Html.RadioButtonFor(m => m.category,"Laundary")<br />
+    <b>Breakfast</b>  @Html.RadioButtonFor(m => m.category,"Breakfast")<br /><br />
+    <input type="submit" value="SUBMIT"><br />
+}
+
+@ViewBag.Check : @ViewBag.Check<br />
