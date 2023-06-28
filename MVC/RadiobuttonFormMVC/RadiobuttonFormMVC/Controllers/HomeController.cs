@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using RadiobuttonFormMVC.Models;
 using System.Diagnostics;
 
@@ -29,6 +30,7 @@ namespace RadiobuttonFormMVC.Controllers
             {
                 Check = "Breakfast";
             }
+            
             ViewBag.Check = Check;
             return View();
 
@@ -82,7 +84,9 @@ namespace RadiobuttonFormMVC.Controllers
                 ViewBag.subject2 = "Java";
             }
 
-            return View();
+            TempData["username"] = s.username;
+            return Redirect("/Home/Privacy");
+            //return View();
         }
 
         public IActionResult AccountDetails(Account a)
@@ -127,8 +131,13 @@ namespace RadiobuttonFormMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public ActionResult Privacy()
         {
+            string username = TempData["username"] as string;
+            ViewBag.Username = username; // Set the value in ViewBag for accessing it in the view
+
+            ViewData["Title"] = "Privacy Policy"; // Set the view's title
+
             return View();
         }
 

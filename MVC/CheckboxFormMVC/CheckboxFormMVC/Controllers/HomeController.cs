@@ -25,9 +25,9 @@ namespace CheckboxFormMVC.Controllers
         {
             ViewBag.Number1 = a.number1;
             ViewBag.Number2 = a.number2;
-            int result1;
-            int result2;
-            int result3;
+            int result1 = 0;
+            int result2 = 0;
+            int result3 = 0;
             if(a.Add == true)
             {
                 result1 = a.number1 + a.number2;
@@ -43,10 +43,15 @@ namespace CheckboxFormMVC.Controllers
                 result3 = a.number1 * a.number2;
                 ViewBag.Result3 = result3;
             }
-            return View();
+
+            TempData["ADD"] = a.number1;
+            //TempData["SUBTRACT"] = result2;
+            //TempData["MULTIPLY"] = result3;
+            //return View();
+            return Redirect("/Home/");
         }
 
-        public IActionResult EmployeeSal(EmployeeSalaryModel e)
+        public ActionResult EmployeeSal(EmployeeSalaryModel e)
         {
             ViewBag.empname = e.empname;
             ViewBag.basicsalary = e.basicsalary;
@@ -77,6 +82,7 @@ namespace CheckboxFormMVC.Controllers
 
         public IActionResult Privacy()
         {
+            
             return View();
         }
 

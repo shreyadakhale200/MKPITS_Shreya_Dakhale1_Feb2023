@@ -17,8 +17,12 @@
     //Checkbox
     <b>Dotnet </b>@Html.CheckBoxFor(m => m.subject1,true)
     <b>Java </b>@Html.CheckBoxFor(m => m.subject2,false)<br/><br/>
+    
+    <form method="post" action="/Home/SignUp">
+    
+        <input type ="submit" value="check"><br /><br />
 
-    <input type ="submit" value="check"><br /><br />
+    </form>
 }
 
 Student Details<br />

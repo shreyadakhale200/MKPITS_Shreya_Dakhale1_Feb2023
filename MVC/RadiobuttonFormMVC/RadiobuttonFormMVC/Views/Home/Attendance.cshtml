@@ -7,13 +7,9 @@
 @using(Html.BeginForm("Attendance","Home",FormMethod.Post))
 {
     <b>Batch </b> @Html.DropDownListFor(m => m.Batch, new SelectList(new List<string> { "Dotnet", "Java"}))<br />
-    
-        @for (var i = 0; i < 10; i++)
-        {
-            
-            <b>Name </b>@html
-            
-        }
-
+    <b>Shreya </b> @Html.CheckBoxFor(m => m.student1,true)<br /><br />
+    <b>Mahima </b> @Html.CheckBoxFor(m => m.student2,false)<br /><br />
+    <b>Rupali </b> @Html.CheckBoxFor(m => m.student3,false)<br /><br />
+       
    <input type="submit" value="SUBMIT"><br /><br />
 }
