@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@*Algorithm to calculate percentage 
+1. Save the Name of the student in the variable named name
+2. Saave Marks of Subject 1 in Subject1
+3. Save Marks of Subject 2 in Subject2
+4. Save Marks of Subject 3 in Subject3
+5. Calculate the sum of 3 subjects and save it in the variable total
+6. Calculate the percentage by dividing the total with 300 as there are 3 subjects and their total sum upto 300
+7. Then multiply it by 100 to find the percentage
+8. Compre the percentage with the use of if condition and check if it falls under a particular range and then print the grade which it is assigned to*@
+<h5>Percentage Calculation</h5>
+@{
+    string Username = "Shreya";
+    double Subject1 = 89;
+    double Subject2 = 76;
+    double Subject3 = 99;
+    double total = Subject1 + Subject2 + Subject3;
+    double percent = (total / 300) * 100;
+    string grade = null;
+    if(percent >= 90 && percent < 100)
+    {
+        grade = "A++";
+    }
+    else if(percent >= 80 && percent < 90)
+    {
+        grade = "A";
+    }
+    else if(percent > 65 && percent < 80)
+    {
+        grade = "B";
+    }
+    else
+    {
+        grade = "Fail";
+    }
+
+
+}
+<text>Name of the student is @Username</text><br />
+<text>Total Marks @total</text><br />
+<text>Percentage @percent</text><br />
+<text>grade @grade</text>
+<br />
+
+
+@*Algorithm to Print class Name and Age from class using a constructor
+1. create a class named Person.cs in the Model
+2. create member variables named Name and age
+3. Pass them through constructor and then use get and set method to access thos member variables while encapsulating the implementation===========*@
+@{
+    Person p1 = new Person("Shreya", 22);
+    Person p2 = new Person("Mahima", 21);
+
+    var joe = new Person("Rupali", 22);
+}
+@p1.name
+@p1.age<br />
+@p2.name
+@p2.age<br />
+
+@{
+    string[] people = new string[] { "Mahi","Rupali","Mahima","Shreya"};
+
+    @for(int count = 1; count <= people.Length; count++)
+    {
+        var CountOfPeople = count;
+        <text>Number of people are </text>@CountOfPeople;<br />
+    }
+}
+<br />
+<br />
+Algorithm to print Arrar of objects
+1. First initialize an array of data type string named human in which member variables of Person class will be accessed 
+2. Now provide the values to each object according to the parameters
+3. Use for loop to print those array of objects in which count will be used to start the loop from 0 till the length of variable named human.Length
+4. Store object human and the length of it in variable named humancount
+5. Then print the names by accessing the Person class which was saved in the object human
+        var humanCount = human[count];
+@*Printing array of objects*@
+@{
+    var human = new Person[]
+    {
+        new Person("Swasthi",34),
+        new Person("Drishti",23),
+        new Person("Shreya",22),
+        new Person("Lata",55),
+        new Person("Asha",43)
+    };
+
+    for(int count = 0;count < human.Length;count++)
+    {
+        var humanCount = human[count];
+        
+        <text>@humanCount.name</text>
+        
+        <text>@humanCount.age</text><br />
+        
+    }
+}
+
+
