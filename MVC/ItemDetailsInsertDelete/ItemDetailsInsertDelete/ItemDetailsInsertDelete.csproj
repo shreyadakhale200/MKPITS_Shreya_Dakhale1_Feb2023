@@ -182,6 +182,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Web1.config" />
     <Content Include="Views\Item\Index.cshtml" />
+    <Content Include="Views\Item\Insert.cshtml" />
+    <Content Include="Views\Item\Edit.cshtml" />
+    <Content Include="Views\Item\Delete.cshtml" />
+    <Content Include="Views\Item\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

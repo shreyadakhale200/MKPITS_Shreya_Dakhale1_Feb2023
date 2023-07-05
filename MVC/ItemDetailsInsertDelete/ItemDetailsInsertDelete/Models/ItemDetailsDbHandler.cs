@@ -50,12 +50,51 @@ namespace ItemDetailsInsertDelete.Models
         {
             connection();
 
-            string query = "insert into ItemDetails values('"+iList.Name+"','"+iList.Category+"','"+iList.Price+"')";
+            string query = "insert into Item_List values('"+iList.Name+"','"+iList.Category+"','"+iList.Price+"')";
             SqlCommand command = new SqlCommand(query,con);
             con.Open();
             int i = command.ExecuteNonQuery();
             con.Close();
 
+            if(i >= 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //Update Item
+        //--------------------------Update Item Method-------------------------------
+        public bool UpdateDetails(ItemModel iList) 
+        { 
+            connection ();
+
+            string query = "update Item_List set Name = '"+iList.Name+"',Category = '"+iList.Category+"',Price = '"+iList.Price+"' where ID = '"+iList.Id+"'";
+            SqlCommand cmd = new SqlCommand(query,con);
+            con.Open();
+            int i = cmd.ExecuteNonQuery();
+            con.Close();
+            if(i >= 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool DeleteDetails(ItemModel iList)
+        {
+            connection ();
+            string query = "delete from Item_List where ID = '" +iList.Id+"'";
+            SqlCommand command = new SqlCommand (query,con);
+            con.Open();
+            int i = command.ExecuteNonQuery();
+            con.Close();
             if(i >= 1)
             {
                 return true;
