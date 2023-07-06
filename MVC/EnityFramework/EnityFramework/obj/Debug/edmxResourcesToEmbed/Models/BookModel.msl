@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="librarydbModelStoreContainer" CdmEntityContainer="librarydbEntities">
+    <EntitySetMapping Name="bookTables">
+      <EntityTypeMapping TypeName="librarydbModel.bookTable">
+        <MappingFragment StoreEntitySet="bookTable">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
