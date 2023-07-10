@@ -10,9 +10,12 @@ SELECT TOP (1000) [username]
   Email varchar(500),
   Mobileno numeric(18,0),
   cityid int,
-  Dob date
+  Dob date,
+  constraint c3  foreign key(cityid) references CityDetails(cityid)
   )
   drop table employee_civica
+
+  select * from employee_civica
 
   create table CityDetails(
   cityid int primary key identity,
