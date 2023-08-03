@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
+using FormRegister;
 namespace FormRegister
 {
     public partial class Register : Form
@@ -65,6 +65,9 @@ namespace FormRegister
         #endregion
 
         #region==========CONTACT VALIDATION==========
+        /// <summary>
+        ///For checking is the contact contains 10 characters or not
+        /// </summary>
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -72,6 +75,7 @@ namespace FormRegister
                 e.Handled = true;
             }
         }
+        
         #endregion
 
 
@@ -101,6 +105,7 @@ namespace FormRegister
 
         private void buttonReset_Click(object sender, EventArgs e)
         {
+
             this.textBoxName.Clear();
             this.textBoxAge.Clear();
             this.textBoxMobileNo.Clear();

@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace FormRegister
 {
-    internal class RegistrationClass
+    public class RegistrationClass
     {
-        //public string AgeValidation()
-        //{
-
-        //}
+        public string Name = null;
+        public int Age = 0;
+        public string Mobile = null;
+        public void MethodClear(string Name,int Age, string Mobile)
+        {
+                       
+        }
     }
 }
